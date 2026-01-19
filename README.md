@@ -8,9 +8,9 @@
 
 <br>
 
-[Enhao Huang](LINK)*, [Tongtong Pan](LINK)*, [Shuhuai Zhang](LINK), [Qishu Jin](LINK), [Liheng Zhen](LINK), [Kaichun Hu](LINK), [Yiming Li](LINK) $^\dagger$, [Zhan Qin](LINK), [Kui Ren](LINK)
+[Enhao Huang](LINK), [Tongtong Pan](LINK), [Shuhuai Zhang](LINK), [Qishu Jin](LINK), [Liheng Zhen](LINK), [Kaichun Hu](LINK), [Yiming Li](LINK) $^\dagger$, [Zhan Qin](LINK), [Kui Ren](LINK)
 
-(* Equal Contribution, $^\dagger$ Corresponding Author)
+($^\dagger$ Corresponding Author)
 
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](你的Arxiv链接) 
 [![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](你的视频链接)
@@ -20,9 +20,20 @@
 
 ---
 
+## 📅 Roadmap & Status
+
+**Current Progress:** `[████░░░░░░]` **40%**
+
+| Milestone | ETA | Status |
+| :--- | :--- | :--- |
+| **1. Core Implementation** <br> (Backend, Agent Logic, & Dataset) | ~ 2026.02.20 | 🚧 *In Progress* |
+| **2. Demo Video** <br> (System walkthrough & Visualizations) | ~ 2026.03.10 | ⏳ *Pending* |
+| **3. Full System Release** <br> (Industrial-ready Frontend & Deployment) | ~ 2026.03.20 | ⏳ *Pending* |
+
+---
+
 ## 📢 News
 - **[2026.01]** 🎉 DualMind has been accepted by **The Web Conference (WWW) 2026 (Demo Track)**!
-- **[2026.01]** We are preparing the code and demo data.
 
 ## 🚧 Code & Data Release
 This repository will host the official implementation of **DualMind**, including:
