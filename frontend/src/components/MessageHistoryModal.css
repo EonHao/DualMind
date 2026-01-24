@@ -1,0 +1,230 @@
+/* 消息历史抽屉样式 */
+.message-history-drawer .ant-drawer-header {
+  background: rgba(255, 255, 255, 0.92);
+  border-bottom: 1px solid rgba(148, 163, 184, 0.3);
+  padding: 16px 24px;
+}
+
+.message-history-drawer .ant-drawer-title {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.message-history-drawer .ant-drawer-close {
+  color: rgba(71, 85, 105, 0.7);
+}
+
+.message-history-drawer .ant-drawer-close:hover {
+  color: #0f172a;
+}
+
+.message-history-drawer .ant-drawer-body {
+  background: rgba(255, 255, 255, 0.92);
+  padding: 0;
+}
+
+/* 消息历史头部 */
+.message-history-header {
+  display: flex;
+  align-items: center;
+  color: #0f172a;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* 消息历史内容 */
+.message-history-content {
+  padding: 24px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* 消息历史摘要 */
+.message-history-summary {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(37, 99, 235, 0.06);
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.summary-item {
+  text-align: center;
+}
+
+.summary-item .ant-typography {
+  color: #0f172a;
+  margin: 0;
+}
+
+/* 消息列表 */
+.message-list {
+  max-height: calc(100vh - 200px);
+  overflow-y: auto;
+}
+
+/* 消息卡片 */
+.message-card {
+  background: rgba(37, 99, 235, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.message-card:hover {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.24);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.18);
+}
+
+/* 可点击的消息卡片 */
+.message-card.clickable-message {
+  cursor: pointer;
+  position: relative;
+}
+
+.message-card.clickable-message:hover {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.24);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.18);
+}
+
+.message-card.clickable-message::after {
+  content: "Click to replay the animation";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(37, 99, 235, 0.85);
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.message-card.clickable-message:hover::after {
+  opacity: 1;
+}
+
+/* 不同状态的消息卡片 */
+.message-card.completed {
+  border-left: 4px solid #52c41a;
+}
+
+.message-card.active {
+  border-left: 4px solid #1890ff;
+  background: rgba(24, 144, 255, 0.1);
+}
+
+.message-card.pending {
+  border-left: 4px solid #8c8c8c;
+  opacity: 0.7;
+}
+
+/* 消息卡片头部 */
+.message-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.message-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.message-number {
+  color: rgba(71, 85, 105, 0.7);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* 发送者信息 */
+.message-sender {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: rgba(15, 23, 42, 0.85);
+}
+
+/* 消息内容 */
+.message-content {
+  margin-bottom: 8px;
+}
+
+.message-content .ant-typography {
+  color: rgba(30, 41, 59, 0.72);
+  line-height: 1.6;
+}
+
+/* 接收者信息 */
+.message-receivers {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+  color: rgba(71, 85, 105, 0.7);
+  font-size: 12px;
+}
+
+/* 时间信息 */
+.message-timing {
+  display: flex;
+  align-items: center;
+  color: rgba(71, 85, 105, 0.7);
+  font-size: 12px;
+}
+
+/* 空状态 */
+.empty-messages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  text-align: center;
+}
+
+/* 滚动条样式 */
+.message-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.message-list::-webkit-scrollbar-track {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 3px;
+}
+
+.message-list::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 3px;
+}
+
+.message-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .message-history-drawer {
+    width: 100% !important;
+  }
+  
+  .message-history-content {
+    padding: 16px;
+  }
+  
+  .message-history-summary {
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .summary-item {
+    text-align: left;
+  }
+}

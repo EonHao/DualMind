@@ -1,0 +1,376 @@
+/* ✅ Modal样式 */
+.case-selection-modal .ant-modal-content {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 20px;
+  color: #0f172a;
+  height: 90vh !important;
+  max-height: 90vh !important;
+  display: flex !important;
+  flex-direction: column !important;
+  position: relative !important;
+  overflow: hidden !important;
+  box-shadow: var(--glass-shadow);
+}
+
+.case-selection-modal .ant-modal-body {
+  padding: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  flex: 1 !important;
+  min-height: 0 !important;
+  height: 100% !important;
+}
+
+.case-selection-modal .modal-content {
+  height: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  position: relative !important;
+  min-height: 0 !important;
+  max-height: 100% !important;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 24px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  flex-shrink: 0;
+}
+
+.modal-title {
+  color: #0f172a !important;
+  margin: 0 !important;
+  font-weight: 700;
+}
+
+
+.case-selection-modal .modal-body {
+  flex: 1 !important;
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  grid-template-rows: 1fr !important;
+  gap: 16px !important;
+  padding: 16px 20px !important;
+  overflow: hidden !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  max-height: calc(100% - 160px) !important; /* 为header和footer留出空间 */
+}
+
+.case-selection-modal .case-list-section {
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  grid-row: 1 !important;
+  grid-column: 1 !important;
+}
+
+.case-list {
+  flex: 1;
+  overflow-y: auto;
+  padding-right: 16px;
+  margin-right: -16px;
+}
+
+.case-list::-webkit-scrollbar {
+  width: 6px;
+}
+
+.case-list::-webkit-scrollbar-track {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 3px;
+}
+
+.case-list::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 3px;
+}
+
+.case-list::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}
+
+.case-item {
+  padding: 16px;
+  margin-bottom: 12px;
+  background: rgba(37, 99, 235, 0.06);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.case-item:hover {
+  background: rgba(37, 99, 235, 0.12);
+  border-color: rgba(37, 99, 235, 0.32);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.18);
+}
+
+.case-item.selected {
+  background: rgba(37, 99, 235, 0.18);
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.24);
+}
+
+.case-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.case-title {
+  color: #0f172a !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+  line-height: 1.4;
+  flex: 1;
+}
+
+.check-icon {
+  color: #52c41a;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.case-description {
+  color: rgba(30, 41, 59, 0.68) !important;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 !important;
+}
+
+.case-selection-modal .case-details-section {
+  display: flex !important;
+  flex-direction: column !important;
+  background: rgba(37, 99, 235, 0.06) !important;
+  border-radius: 12px !important;
+  overflow: hidden !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  flex: 1 !important;
+  grid-row: 1 !important;
+  grid-column: 2 !important;
+}
+
+.details-header {
+  padding: 24px 24px 16px 24px;
+  border-bottom: 1px solid rgba(148, 163, 184, 0.25);
+  background: rgba(255, 255, 255, 0.9);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.details-title {
+  color: #0f172a !important;
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+}
+
+.case-selection-modal .details-content {
+  flex: 1 !important;
+  overflow-y: auto !important;
+  padding: 24px !important;
+  min-height: 0 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+}
+
+.case-selection-modal .strategy-details {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 20px !important;
+  flex: 1 !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  max-height: none !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  overflow: visible !important;
+}
+
+.strategy-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.strategy-round {
+  color: #2563eb !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  margin: 0 !important;
+}
+
+.strategy-text {
+  color: rgba(15, 23, 42, 0.82) !important;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 !important;
+}
+
+.case-selection-modal .empty-details {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  flex: 1 !important;
+  min-height: 200px !important;
+  height: 100% !important;
+}
+
+.empty-text {
+  color: rgba(30, 41, 59, 0.6) !important;
+  font-size: 14px;
+  margin: 0 !important;
+}
+
+.case-selection-modal .loading-container {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  flex: 1 !important;
+  min-height: 200px !important;
+  height: 100% !important;
+}
+
+.case-selection-modal .modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding: 16px 24px !important;
+  border-top: 1px solid rgba(148, 163, 184, 0.25) !important;
+  flex-shrink: 0 !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(10px) !important;
+  position: sticky !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  z-index: 10 !important;
+  margin-top: auto !important;
+}
+
+.confirm-button {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+  font-weight: 600;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.confirm-button:hover {
+  background: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  opacity: 0.9;
+}
+
+.confirm-button:disabled {
+  background: rgba(37, 99, 235, 0.16) !important;
+  border-color: rgba(37, 99, 235, 0.24) !important;
+  color: rgba(30, 41, 59, 0.4) !important;
+  cursor: not-allowed;
+}
+
+/* 响应式设计 */
+@media (max-width: 1024px) {
+  .modal-body {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    height: auto;
+    min-height: 0;
+  }
+  
+  .case-list-section {
+    max-height: 300px;
+    flex-shrink: 0;
+  }
+  
+  .case-details-section {
+    max-height: 400px;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .case-selection-modal .ant-modal-content {
+    height: 98vh !important;
+    margin: 4px;
+    max-height: 98vh !important;
+    min-height: 700px;
+  }
+  
+  .modal-header {
+    padding: 16px;
+  }
+  
+  .modal-title {
+    font-size: 18px !important;
+  }
+  
+  .modal-body {
+    padding: 16px;
+    gap: 12px;
+    height: auto;
+    min-height: 0;
+  }
+  
+  .case-item {
+    padding: 12px;
+  }
+  
+  .case-title {
+    font-size: 14px !important;
+  }
+  
+  .case-description {
+    font-size: 12px;
+  }
+  
+  .details-header {
+    padding: 16px;
+  }
+  
+  .details-title {
+    font-size: 16px !important;
+  }
+  
+  .details-content {
+    padding: 16px;
+  }
+  
+  .strategy-round {
+    font-size: 13px !important;
+  }
+  
+  .strategy-text {
+    font-size: 12px;
+  }
+  
+  .modal-footer {
+    padding: 16px;
+  }
+  
+  .confirm-button {
+    height: 44px;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+}

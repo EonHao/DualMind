@@ -1,0 +1,178 @@
+/* 消息通知容器 - 固定在NetworkVisualization顶部，避开标题 */
+.message-notification-container {
+  position: absolute;
+  top: 10px; /* 上移到更靠近顶部的位置 */
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  pointer-events: none; /* 允许点击穿透到下面的元素 */
+}
+
+/* 消息通知主体 - 手机通知样式 */
+.message-notification {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  margin: 16px;
+  padding: 18px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  pointer-events: auto; /* 恢复点击事件 */
+  animation: slideInFromRight 0.3s ease-out;
+  color: rgba(15, 23, 42, 0.85);
+  max-width: 500px;
+  margin-left: auto; /* 右对齐 */
+}
+
+/* 滑入动画 */
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* 渐入动画 */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 渐出动画 */
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+}
+
+/* 应用渐入渐出动画 */
+.message-notification.fade-in {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.message-notification.fade-out {
+  animation: fadeOut 0.3s ease-in;
+}
+
+/* 通知图标 */
+.message-notification-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(37, 99, 235, 0.18);
+  border-radius: 50%;
+}
+
+/* 通知内容 */
+.message-notification-content {
+  flex: 1;
+  min-width: 0; /* 允许内容收缩 */
+}
+
+/* 通知标题 */
+.message-notification-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgba(15, 23, 42, 0.9);
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+
+/* 通知描述 */
+.message-notification-description {
+  font-size: 12px;
+  color: rgba(30, 41, 59, 0.7);
+  line-height: 1.4;
+  word-break: break-word;
+  margin-bottom: 8px;
+}
+
+/* 接收者信息 */
+.message-notification-receivers {
+  font-size: 11px;
+  color: #2563eb;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+/* 消息内容 */
+.message-notification-content-text {
+  font-size: 11px;
+  color: rgba(30, 41, 59, 0.68);
+  line-height: 1.4;
+}
+
+.message-notification-content-text strong {
+  color: #1f2937;
+  font-weight: 600;
+}
+
+/* 消息内容预览 */
+.message-content-preview {
+  background: rgba(37, 99, 235, 0.08);
+  border-radius: 8px;
+  padding: 8px;
+  margin-top: 4px;
+  font-style: italic;
+  border-left: 3px solid #2563eb;
+}
+
+/* 关闭按钮 */
+.message-notification-close {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(148, 163, 184, 0.18);
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(51, 65, 85, 0.6);
+  transition: all 0.2s ease;
+}
+
+.message-notification-close:hover {
+  background: rgba(37, 99, 235, 0.18);
+  color: #1d4ed8;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .message-notification {
+    margin: 8px;
+    padding: 12px;
+    max-width: calc(100% - 16px);
+  }
+  
+  .message-notification-title {
+    font-size: 13px;
+  }
+  
+  .message-notification-description {
+    font-size: 11px;
+  }
+}

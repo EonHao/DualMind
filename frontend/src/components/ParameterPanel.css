@@ -1,0 +1,114 @@
+.parameter-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  overflow: hidden;
+}
+
+.parameter-panel .ant-card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  overflow: hidden;
+}
+
+.panel-title {
+  margin-bottom: 24px !important;
+  color: #0f172a !important;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.parameters-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 8px;
+  min-height: 0;
+  max-height: calc(100vh - 200px);
+}
+
+.parameter-item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.parameter-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(30, 41, 59, 0.65);
+  margin-bottom: 4px;
+}
+
+.parameter-input {
+  width: 100%;
+}
+
+.parameter-input .ant-input-number {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(148, 163, 184, 0.35) !important;
+  border-radius: 10px !important;
+  color: #0f172a !important;
+}
+
+.parameter-input .ant-input-number-input {
+  background: transparent !important;
+  color: #0f172a !important;
+  border: none !important;
+}
+
+.parameter-input .ant-input-number:hover {
+  border-color: #2563eb !important;
+}
+
+.parameter-input .ant-input-number-focused {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18) !important;
+}
+
+.strategy-notice {
+  margin-top: auto;
+  padding: 16px;
+  background: rgba(37, 99, 235, 0.18);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.strategy-notice p {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(15, 23, 42, 0.8);
+}
+
+/* 滚动条样式 */
+.parameters-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.parameters-container::-webkit-scrollbar-track {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 2px;
+}
+
+.parameters-container::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.5);
+  border-radius: 2px;
+}
+
+.parameters-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}

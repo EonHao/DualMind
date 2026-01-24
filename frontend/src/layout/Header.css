@@ -1,0 +1,114 @@
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 0;
+  height: 64px;
+  line-height: 64px;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  color: #2563eb;
+}
+
+.logo-text {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+  color: inherit;
+}
+
+.header-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-menu {
+  background: transparent;
+  border: none;
+  line-height: 64px;
+}
+
+.header-menu .ant-menu-item {
+  color: rgba(15, 23, 42, 0.72);
+  font-weight: 500;
+  font-size: 14px;
+  padding: 0 20px;
+  margin: 0 8px;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.header-menu .ant-menu-item:hover {
+  color: #1d4ed8;
+  background: rgba(37, 99, 235, 0.12);
+}
+
+.header-menu .ant-menu-item-selected {
+  color: #1d4ed8;
+  background: rgba(37, 99, 235, 0.16);
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icon-btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.header-icon-btn:hover {
+  background: rgba(37, 99, 235, 0.12);
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    padding: 0 16px;
+  }
+  
+  .header-center {
+    display: none;
+  }
+  
+  .logo-text {
+    font-size: 18px;
+  }
+}

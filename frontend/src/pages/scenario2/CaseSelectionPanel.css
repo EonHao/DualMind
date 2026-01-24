@@ -1,0 +1,167 @@
+.case-selection-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid var(--color-border);
+}
+
+.panel-title {
+  margin-bottom: 24px !important;
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.config-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.config-section {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.config-label {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(30, 41, 59, 0.68);
+  margin-bottom: 8px;
+}
+
+.config-select {
+  width: 100%;
+}
+
+.config-select .ant-select-selector {
+  background: rgba(255, 255, 255, 0.9) !important;
+  border: 1px solid rgba(148, 163, 184, 0.35) !important;
+  border-radius: 10px !important;
+  transition: all 0.3s;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.config-select .ant-select-selector:hover {
+  border-color: #2563eb !important;
+}
+
+.config-select.ant-select-focused .ant-select-selector {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.18) !important;
+}
+
+.case-select-button {
+  width: 100%;
+  height: 48px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 14px;
+  transition: all 0.3s;
+  background: rgba(37, 99, 235, 0.1) !important;
+  border: 1px solid rgba(37, 99, 235, 0.24) !important;
+  color: #2563eb !important;
+}
+
+.case-select-button:hover {
+  background: rgba(37, 99, 235, 0.18) !important;
+  border-color: #1d4ed8 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.18);
+}
+
+.selected-case-info {
+  margin-top: 16px;
+  padding: 16px;
+  background: rgba(37, 99, 235, 0.12);
+  border: 1px solid rgba(37, 99, 235, 0.24);
+  border-radius: 8px;
+}
+
+.selected-case-title {
+  color: #0f172a !important;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px !important;
+  display: block;
+}
+
+.selected-case-description {
+  color: rgba(17, 24, 39, 0.68) !important;
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 12px !important;
+  display: block;
+}
+
+.config-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.action-button {
+  width: 100%;
+  height: 48px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.primary-button {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.primary-button:hover {
+  background: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  opacity: 0.9;
+}
+
+.secondary-button {
+  background: rgba(37, 99, 235, 0.08) !important;
+  border: 1px solid rgba(37, 99, 235, 0.2) !important;
+  color: #2563eb !important;
+}
+
+.secondary-button:hover {
+  background: rgba(37, 99, 235, 0.14) !important;
+  border-color: rgba(37, 99, 235, 0.32) !important;
+}
+
+.secondary-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .case-select-button {
+    height: 44px;
+    font-size: 13px;
+  }
+  
+  .selected-case-info {
+    padding: 12px;
+  }
+  
+  .selected-case-title {
+    font-size: 13px;
+  }
+  
+  .selected-case-description {
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,44 @@
+.content-modal .ant-modal-content {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
+
+.content-modal .ant-modal-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 24px 16px;
+}
+
+.content-modal .ant-modal-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.content-modal .ant-modal-body {
+  padding: 20px 24px;
+}
+
+.content-modal .ant-modal-close {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.content-modal .ant-modal-close:hover {
+  color: #2563eb;
+}
+
+.modal-content {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.content-text {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.6;
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
