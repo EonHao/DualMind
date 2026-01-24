@@ -1,0 +1,260 @@
+.home-page {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-background {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(246, 249, 255, 1) 0%, rgba(234, 240, 252, 1) 40%, rgba(224, 231, 247, 1) 100%);
+}
+
+.background-gradient {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse 80% 80% at 50% -20%, rgba(37, 99, 235, 0.28), rgba(255, 255, 255, 0));
+}
+
+.home-content {
+  position: relative;
+  z-index: 10;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 16px;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-section {
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.hero-title {
+  color: #0f172a !important;
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  line-height: 1.1 !important;
+  letter-spacing: -0.02em !important;
+  margin-bottom: 24px !important;
+}
+
+.hero-description {
+  color: rgba(30, 41, 59, 0.75) !important;
+  font-size: 18px !important;
+  line-height: 1.6 !important;
+  margin: 0 auto !important;
+  max-width: 600px;
+}
+
+.scenarios-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+@media (min-width: 768px) {
+  .scenarios-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+}
+
+.scenario-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  padding: 24px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+}
+
+.scenario-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 30px 70px rgba(37, 99, 235, 0.18);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+}
+
+.card-content {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 100%;
+}
+
+.card-background {
+  position: absolute;
+  right: 24px;
+  top: 0;
+  width: 192px;
+  height: 192px;
+  border-radius: 50%;
+  background: rgba(37, 99, 235, 0.22);
+  opacity: 0.55;
+  filter: blur(64px);
+  transition: all 0.5s ease;
+}
+
+.scenario-card:hover .card-background {
+  transform: scale(1.5);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.scenario-icon {
+  font-size: 32px;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+
+.scenario-title {
+  color: #0f172a !important;
+  font-weight: 700 !important;
+  font-size: 24px !important;
+  margin-bottom: 0 !important;
+}
+
+.scenario-description {
+  color: rgba(30, 41, 59, 0.75) !important;
+  font-size: 16px !important;
+  line-height: 1.6 !important;
+  margin-bottom: 0 !important;
+  flex: 1;
+}
+
+.scenario-button {
+  background: #2563eb !important;
+  border-color: #2563eb !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  font-size: 14px !important;
+  height: 48px !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.24) !important;
+  transition: all 0.3s ease !important;
+  margin-top: 16px !important;
+  align-self: flex-start;
+}
+
+.scenario-button:hover {
+  background: #1d4ed8 !important;
+  border-color: #1d4ed8 !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 12px 24px rgba(37, 99, 235, 0.28) !important;
+}
+
+.home-footer {
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  padding: 24px 16px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 -12px 30px rgba(15, 23, 42, 0.06);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-text {
+  color: rgba(30, 41, 59, 0.6) !important;
+  font-size: 14px !important;
+  margin: 0 !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .home-content {
+    padding: 32px 16px;
+  }
+
+  .hero-title {
+    font-size: 36px !important;
+  }
+
+  .hero-description {
+    font-size: 16px !important;
+  }
+
+  .scenarios-grid {
+    gap: 24px;
+  }
+
+  .scenario-card {
+    padding: 20px;
+  }
+
+  .scenario-title {
+    font-size: 20px !important;
+  }
+
+  .scenario-description {
+    font-size: 14px !important;
+  }
+
+  .scenario-button {
+    height: 44px !important;
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-title {
+    font-size: 28px !important;
+  }
+
+  .hero-description {
+    font-size: 14px !important;
+  }
+
+  .scenario-card {
+    padding: 16px;
+  }
+
+  .scenario-title {
+    font-size: 18px !important;
+  }
+
+  .scenario-description {
+    font-size: 13px !important;
+  }
+
+  .scenario-button {
+    height: 40px !important;
+    font-size: 12px !important;
+  }
+}

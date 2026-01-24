@@ -1,0 +1,285 @@
+.network-visualization-container {
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.78);
+  border-radius: 20px;
+  overflow: hidden;
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.08);
+}
+
+.network-svg {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.network-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  color: rgba(30, 41, 59, 0.75);
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid rgba(148, 163, 184, 0.3);
+  border-top: 3px solid #2563eb;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 16px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* 平台节点样式 */
+.platform-node {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.platform-node:hover {
+  filter: brightness(1.2);
+}
+
+/* 平台图标样式 */
+.platform-icon {
+  pointer-events: none;
+  opacity: 0.9;
+  transition: opacity 0.3s ease;
+}
+
+.platform-node:hover .platform-icon {
+  opacity: 1;
+}
+
+.platform-label {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 600;
+  pointer-events: none;
+}
+
+/* 用户节点样式 */
+.agent-node {
+  cursor: pointer;
+  /* 移除transition，让stance-color-transition控制颜色变化 */
+  animation: nodePulse 2s infinite ease-in-out;
+}
+
+.agent-node:hover {
+  filter: brightness(1.3);
+}
+
+.user-label {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+/* 立场颜色变化动画 - 由JavaScript控制动画时机 */
+.stance-color-transition {
+  /* 移除固定过渡时间，让JavaScript完全控制动画时机 */
+}
+
+/* 动画流样式 */
+.animated-flow {
+  stroke-dasharray: 12, 24;
+  stroke-width: 3;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-origin: center;
+}
+
+.animate-flow {
+  animation: flow 3s linear infinite;
+  opacity: 1;
+  stroke-width: 3;
+  stroke-opacity: 1;
+}
+
+.inactive-flow {
+  opacity: 0.4;
+  stroke-width: 2;
+  stroke-opacity: 0.5;
+  transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: none;
+}
+
+/* 过渡中的边样式 */
+.animated-flow.transitioning {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+@keyframes flow {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -36;
+  }
+}
+
+@keyframes nodePulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+/* 消息历史按钮容器 */
+.message-history-button-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  animation: slideInFromTop 0.5s ease-out;
+}
+
+.message-history-button {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 12px;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
+  font-weight: 600;
+  height: 40px;
+  padding: 0 20px;
+  transition: all 0.3s ease;
+  color: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.message-history-button:hover {
+  background: rgba(37, 99, 235, 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 18px 38px rgba(37, 99, 235, 0.22);
+  color: #1d4ed8;
+  border-color: rgba(37, 99, 235, 0.35);
+}
+
+.message-history-button:active {
+  transform: translateY(0);
+}
+
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .network-svg {
+    width: 100%;
+    height: 300px;
+  }
+  
+  .platform-label,
+  .user-label {
+    font-size: 10px;
+  }
+  
+  .platform-node {
+    r: 25;
+  }
+  
+  .agent-node {
+    r: 15;
+  }
+
+  .message-history-button-container {
+    top: 10px;
+    right: 10px;
+  }
+
+  .message-history-button {
+    height: 36px;
+    padding: 0 16px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .network-svg {
+    height: 250px;
+  }
+  
+  .platform-label,
+  .user-label {
+    font-size: 8px;
+  }
+  
+  .platform-node {
+    r: 20;
+  }
+  
+  .agent-node {
+    r: 12;
+  }
+}
+
+/* 闪烁动画 - 真正的同心圆缩放效果 */
+.flashing-sender {
+  animation: flashSender 0.6s ease-in-out infinite alternate;
+}
+
+.flashing-platform {
+  animation: flashPlatform 0.6s ease-in-out infinite alternate;
+}
+
+.flashing-receiver {
+  animation: flashReceiver 0.6s ease-in-out infinite alternate;
+}
+
+@keyframes flashSender {
+  0% {
+    stroke: currentColor;
+    stroke-width: 2;
+    r: 25; /* 原始半径 */
+  }
+  100% {
+    stroke: #4ade80; /* 绿色 - 发送者 */
+    stroke-width: 4;
+    r: 30; /* 减小放大半径 */
+  }
+}
+
+@keyframes flashPlatform {
+  0% {
+    stroke: currentColor;
+    stroke-width: 2;
+    r: 35; /* 原始半径 */
+  }
+  100% {
+    stroke: #3b82f6; /* 蓝色 - 平台 */
+    stroke-width: 4;
+    r: 40; /* 减小放大半径 */
+  }
+}
+
+@keyframes flashReceiver {
+  0% {
+    stroke: currentColor;
+    stroke-width: 2;
+    r: 20; /* 原始半径 */
+  }
+  100% {
+    stroke: #f59e0b; /* 橙色 - 接收者 */
+    stroke-width: 4;
+    r: 25; /* 减小放大半径 */
+  }
+}

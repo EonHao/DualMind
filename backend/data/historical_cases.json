@@ -1,0 +1,983 @@
+[
+  {
+    "event_id": "CASE-01",
+    "company": "Arc'teryx",
+    "event_name": "'Ascending Dragon' Fireworks Incident",
+    "date": "September 2025",
+    "crisis_type": "Value-Action Divergence",
+    "core_conflict": "Environmentalism vs. Marketing, Brand Hypocrisy, Cultural Insensitivity",
+    "event_summary": "The high-end outdoor brand Arc'teryx, which has 'reverence for nature' as its core philosophy, sponsored a large-scale fireworks art performance in the ecologically fragile Himalayan region. This act was seen by its core user base as a blatant betrayal of its brand soul, triggering a fierce public backlash. Subsequent mishandling of the crisis, particularly an apology strategy accused of being 'different for domestic and international audiences,' further exacerbated the crisis, leading to profound damage to the brand's reputation.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "September 19, 2025",
+        "protagonist": "Arc'teryx",
+        "strategy": "Pre-emptive Framing",
+        "content": "As a continuation of our 'To the Beauty Upward' series, Arc'teryx is honored to collaborate with internationally renowned artist Mr. Cai Guo-Qiang to present the art project 'Ascending Dragon' in the Himalayas. It aims to pay tribute to the great mountain culture and nature through stunning artistic expression. We are deeply aware of the responsibility that comes with creating in such a special environment. Therefore, we solemnly promise: 'All activities of this artistic creation are carried out under scientific evaluation and strict guidance, upholding the utmost reverence for nature.' We have adopted 'environmentally friendly and biodegradable materials' that meet international standards and have formulated a full-chain ecological protection plan covering prevention, monitoring, and restoration to ensure that the environmental impact is minimized, achieving a harmonious coexistence of art and nature.",
+        "situation": {
+          "overall_stance": "Initial public opinion was neutral to slightly positive. Leveraging Cai Guo-Qiang's artistic reputation and the project's visual spectacle, the event successfully created an image of a high-end, avant-garde brand event in the mainstream media and public eye.",
+          "evolution_direction": "Stable, but negative seeds were sown. Within the brand's core consumer group—seasoned outdoor enthusiasts—a sense of skepticism and scrutiny had begun to brew. This divergence stemmed from the brand's attempt to appeal to both high-net-worth luxury consumers and traditional outdoor adventurers, whose values clashed in this event.",
+          "polarization_level": "Medium. The general public and trend followers were generally positive or neutral, while the core outdoor community showed significant skepticism and a wait-and-see attitude.",
+          "core_dispute": "No large-scale controversy had yet formed, but the potential point of conflict lay in the inherent tension between the act of 'conducting a large-scale event in a fragile ecosystem' and the brand's environmental image.",
+          "main_arguments": "Positive arguments focused on the combination of art and nature and the tribute to Eastern dragon culture. The negative seeds were doubts about the effectiveness of 'eco-friendly materials' in a high-altitude environment and whether the event itself aligned with the core belief of an outdoor brand to 'coexist with nature.'",
+          "emotional_tone": "The general public felt 'amazement' and 'anticipation,' while the core user community was 'cautious' and 'observant.'",
+          "secondary_topic_diffusion": "No significant secondary topic diffusion had occurred yet."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "September 19-20, 2025",
+        "protagonist": "Arc'teryx",
+        "strategy": "Passive Silence & Content Removal",
+        "content": "Facing the initially fermenting negative public opinion on social media, Arc'teryx made no public response for about 24 hours. Concurrently, the brand deleted all promotional videos and posts related to the 'Ascending Dragon' event from all its official social media platforms (including Weibo, Instagram, etc.).",
+        "situation": {
+          "overall_stance": "Public opinion quickly turned overwhelmingly negative.",
+          "evolution_direction": "Sharply deteriorating. The brand's silence was interpreted as a tacit admission of the accusations, while the act of deleting content was seen as 'a guilty conscience' and 'destroying evidence,' which intensified public anger.",
+          "polarization_level": "Extremely low, showing a one-sided condemnation. The Weibo topic #Arc'teryx collaboration with Cai Guo-Qiang's firework art sparks controversy# quickly surpassed 130 million views, with the discussion area almost completely dominated by negative comments.",
+          "core_dispute": "The focus was clearly on the fundamental conflict between the brand's actions and its core values. The core of the criticism was that regardless of the materials used, conducting a large-scale fireworks display in an extremely fragile high-altitude ecosystem fundamentally violates the most basic and sacred 'Leave No Trace' (LNT) principle of the outdoor community.",
+          "main_arguments": "Key arguments included: 'A brand that sells itself on reverence for nature is destroying nature, which is the ultimate hypocrisy'; 'This is a betrayal of the core beliefs of all outdoor enthusiasts,' causing a 'sting of betrayal'; 'So-called eco-friendly materials cannot effectively biodegrade in the low-temperature, arid, and low-oxygen high-altitude environment, this is pseudo-scientific marketing'; and the act of setting off fireworks itself was 'upstaging' the solemnity of the snowy mountains and an example of 'outdoor arrogance.'",
+          "emotional_tone": "Anger, disappointment, betrayal, and ridicule. Words like 'hypocrisy,' 'betrayal,' 'show-off,' and 'disrespect for nature' became high-frequency terms. Many loyal users left comments stating they would 'never buy from the brand again.'",
+          "secondary_topic_diffusion": "The act of deleting the video itself became a secondary topic, widely interpreted as an attempt to cover up the facts, further deepening the crisis of trust. Meanwhile, some netizens pointed out that the fireworks display happened not once but 'three times,' increasing public concern about the extent of environmental damage."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "September 21, 2025",
+        "protagonist": "Arc'teryx",
+        "strategy": "Formal Apology & Remedial Promise",
+        "content": "To all friends who care for and love the outdoors: Regarding the recent controversy sparked by the 'Ascending Dragon' art project in the Himalayan region, we sincerely thank everyone for your concern and supervision of the Tibetan Plateau's ecological environment, and we earnestly accept all criticisms and suggestions. We are well aware that although the original intention of the event was to raise awareness of local mountain culture through artistic creation, there were deviations in its presentation. For this, we express our sincerest apologies. We solemnly promise that under the strict supervision of government departments, we will cooperate with the artist's team and third-party professional environmental organizations to review the environmental and ecological impact of the entire project and take timely and effective remedial actions based on the assessment results to ensure the impact is minimized. We know that an apology is far from enough, and we will take practical actions to bear our responsibility.",
+        "situation": {
+          "overall_stance": "The intensity of negative public opinion eased, but the overall stance remained negative, shifting to 'skeptical observation.'",
+          "evolution_direction": "The deteriorating trend was contained, and public opinion began to shift from 'condemnation' to 'supervision.' The apology was a necessary step to quell public anger, temporarily shifting the focus from 'why did they do it' to 'how will they fix it.'",
+          "polarization_level": "Divergence appeared. Some people felt the apology was acceptable and were willing to wait and see the follow-up actions; however, another group, due to the prior 'content deletion,' believed the apology lacked sincerity and was merely a public relations statement made under pressure.",
+          "core_dispute": "The focus of the dispute partially shifted to the sincerity of the apology and the effectiveness of the remedial measures.",
+          "main_arguments": "Those who accepted the apology believed the brand at least showed a willingness to take responsibility. The skeptical side argued that phrases like 'original intention' and 'deviations' in the apology letter were excuses for the wrong actions. The artist Cai Guo-Qiang also issued a similar statement, promising to cooperate with investigations and take remedial actions, forming a unified PR front.",
+          "emotional_tone": "Anger subsided, replaced by skepticism, scrutiny, and a wait-and-see attitude.",
+          "secondary_topic_diffusion": "The 'sincerity of the brand's apology' itself became a new point of discussion, laying the groundwork for a subsequent secondary crisis."
+        }
+      },
+      {
+        "node_id": 4,
+        "timestamp": "September 21-22, 2025",
+        "protagonist": "Arc'teryx",
+        "strategy": "Differential Communication Causing Secondary Crisis",
+        "content": "Netizens discovered that the English version of the apology letter posted on Arc'teryx's overseas social media platform (Instagram) was significantly different from the Chinese version posted on Weibo. The English version included a sentence not found in the Chinese version: 'We're addressing this directly with the local artist involved, our team in China, and will change the way we work to ensure this doesn't happen again.'",
+        "situation": {
+          "overall_stance": "Public opinion took another sharp downturn, with the negativity and damage far exceeding that of the initial fireworks event itself.",
+          "evolution_direction": "Disastrous deterioration. The slight mitigation brought by Node 3 was completely reversed, and the brand fell into a deeper crisis of integrity.",
+          "polarization_level": "Extremely low. A one-sided condemnation formed among Chinese consumers.",
+          "core_dispute": "The focus quickly escalated and shifted from 'environmental misconduct' to issues of 'corporate integrity' and 'attitude towards Chinese consumers.'",
+          "main_arguments": "The 'double-standard' apology was interpreted by Chinese consumers as a typical blame-shifting tactic, attempting to attribute responsibility to the 'China team' to protect the global brand image. The mainstream arguments became: 'This is arrogance and disrespect towards Chinese consumers,' 'A completely insincere PR scam,' 'The hypocritical face of treating domestic and foreign audiences differently has been exposed.'",
+          "emotional_tone": "Shifted from disappointment and anger over environmental issues to extreme anger and contempt for the brand's deceptive behavior.",
+          "secondary_topic_diffusion": "The topic quickly spread to a broad discussion about the corporate culture of Arc'teryx (and its parent company, Anta), its global governance structure, and the ethics of multinational corporations operating in China. This action completely destroyed the fragile trust established by the previous apology, causing severe damage to the brand's reputation and directly leading to a sharp drop in the stock price of its parent company, Anta Sports."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-02",
+    "company": "Apple Inc.",
+    "event_name": "'Crush!' iPad Pro Ad Controversy",
+    "date": "May 2024",
+    "crisis_type": "Marketing-Context Misalignment",
+    "core_conflict": "Technology vs. Humanities, AI Anxiety, Brand Value Betrayal",
+    "event_summary": "To promote its thinnest-ever iPad Pro, Apple released an ad titled 'Crush!' The video featured a giant hydraulic press crushing a series of creative tools and artworks, including a piano, a record player, paints, and sculptures, ultimately 'compressing' them into an iPad Pro. The ad, intended to highlight the product's 'integration' and 'power,' backfired dramatically within the global creative community. It was widely interpreted as the violent destruction of human culture and creativity by technology. Especially against a social backdrop of widespread anxiety about generative AI, the ad was seen as a severe, 'tone-deaf' marketing misjudgment.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "May 7, 2024",
+        "protagonist": "Apple Inc.",
+        "strategy": "Product Launch & Core Creative Communication",
+        "content": "Meet the new iPad Pro: the thinnest product we’ve ever created, the most advanced display we’ve ever produced, with the incredible power of the M4 chip. Just imagine all the things it’ll be used to create. (Text accompanying the ad posted by Apple CEO Tim Cook).",
+        "situation": {
+          "overall_stance": "Almost immediately upon release, the ad generated a strong negative reaction globally, especially among artists, musicians, designers, and other creative communities, who are core users and long-time advocates for Apple products.",
+          "evolution_direction": "Negative sentiment spread virally. The ad garnered over 64 million views on X and YouTube, but was accompanied by a massive volume of negative comments and criticism.",
+          "polarization_level": "Extremely low. An overwhelming negative consensus formed within the creative community and among mainstream media commentators.",
+          "core_dispute": "The public's interpretation of the ad was the exact opposite of Apple's intent. The visual language was 'destruction,' not 'integration.' The act was widely seen as a violent destruction of tangible human art and culture, sending a cold, hostile, and even dystopian message.",
+          "main_arguments": "Actor Hugh Grant's comment was most representative: 'the destruction of the human experience. Courtesy of Silicon Valley.' Many comments pointed out that the ad was a blatant betrayal of Apple's long-standing brand promise to 'empower creators.'",
+          "emotional_tone": "Shock, disappointment, offense, and sadness.",
+          "secondary_topic_diffusion": "Shortly after the ad's release, competitor Samsung quickly seized the opportunity, releasing a counter-ad showing a woman playing a guitar amidst the debris of crushed instruments with the caption, 'Creativity cannot be crushed,' directly hitting back at Apple's misstep."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "May 7-8, 2024",
+        "protagonist": "Apple Inc.",
+        "strategy": "Temporary Silence",
+        "content": "In the initial 48 hours of the negative viral spread, Apple remained silent and issued no public response.",
+        "situation": {
+          "overall_stance": "The negative stance continued to solidify and deepen.",
+          "evolution_direction": "Negative sentiment continued to ferment and expand. During the silence, the media and the public largely finalized their negative characterization of the event.",
+          "polarization_level": "Maintained an extremely low negative consensus.",
+          "core_dispute": "Remained focused on the interpretation of the ad as 'destroying creativity' and began to spread to deeper societal issues.",
+          "main_arguments": "During the period of silence, the main arguments deepened. The ad was compared to Apple's classic '1984' commercial, satirizing that Apple had transformed from the dragon-slayer rebelling against 'Big Brother' into 'Big Brother' itself.",
+          "emotional_tone": "Disappointment and anger continued to fester.",
+          "secondary_topic_diffusion": "The core of the discussion quickly moved from the ad itself to deeper societal issues. As the event coincided with peak anxiety among creative professionals worldwide about generative AI potentially replacing human artistry, the ad was widely seen as extremely 'tone-deaf.' It was interpreted as a blatant provocation by a tech giant against its core creative user base, symbolizing technology 'crushing' the humanistic creative process."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "May 9, 2024",
+        "protagonist": "Apple Inc.",
+        "strategy": "Swift, Candid Apology & Ad Withdrawal",
+        "content": "Creativity is in our DNA at Apple, and it’s incredibly important to us to design products that empower creatives all over the world. Our goal is to always celebrate the myriad of ways users express themselves and bring their ideas to life through iPad. We missed the mark with this video, and we’re sorry. (Statement from Tor Myhren, Apple’s VP of marketing communications, to Ad Age). Apple also announced it was canceling plans to run the ad on television.",
+        "situation": {
+          "overall_stance": "Public opinion quickly shifted from negative to neutral-positive, with the public generally giving positive feedback on Apple's apology.",
+          "evolution_direction": "The crisis was effectively de-escalated. The apology's speed, candor, and directness were considered a proper handling of the situation.",
+          "polarization_level": "Opinion became consistent, with the apology being widely accepted.",
+          "core_dispute": "The focus of the dispute shifted from 'Apple's malice' to 'Apple's mistake,' and the nature of the crisis transformed from a values conflict to a one-off marketing misjudgment.",
+          "main_arguments": "The apology was considered 'rare and clear,' using the powerful phrase 'we're sorry,' which was seen as the correct crisis management action.",
+          "emotional_tone": "Shifted from anger and disappointment to understanding and analysis.",
+          "secondary_topic_diffusion": "The public generally accepted the apology. The focus of discussion shifted from anger over the ad's content to analysis and reflection on why a brand known for its attention to detail and creativity would make such a major judgment error. Although the TV ad was pulled, the video remained on the CEO's social media and YouTube, which some analysts interpreted as a strategy to acknowledge the mistake while still capitalizing on the event's buzz."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-03",
+    "company": "Xibei Youmian Village",
+    "event_name": "Pre-made Meals Controversy",
+    "date": "September 2025",
+    "crisis_type": "Value-Action Divergence",
+    "core_conflict": "Product Transparency, Consumer's Right to Know, Aggressive PR",
+    "event_summary": "The well-known restaurant chain Xibei Youmian Village was plunged into a severe crisis of trust after being accused by public figure Luo Yonghao of serving 'almost entirely pre-made meals.' The founder Jia Guolong's initial aggressive and confrontational stance, followed by a PR blunder where an 'open kitchen' initiative backfired and became self-incriminating, caused the crisis to escalate fully. Ultimately, the brand managed to curb the continued deterioration of public opinion only after a 180-degree shift in attitude with a sincere apology and specific promises for reform.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "September 10, 2025",
+        "protagonist": "Xibei Youmian Village",
+        "strategy": "Aggressive Denial & Legal Threat",
+        "content": "Regarding Mr. Luo Yonghao's accusation that we use 'almost entirely pre-made meals,' this is complete nonsense. Xibei solemnly declares that we are 100% free of pre-made dishes. Our beef bones are cooked fresh, our oat noodles are hand-rolled on-site, there are no pre-made situations. For such baseless slander, we will not tolerate it. 'I can stop doing business, but the lawsuit must be filed.' We will definitely sue Luo Yonghao to protect our brand reputation. (A summary of public statements by Xibei founder Jia Guolong and the company's customer service).",
+        "situation": {
+          "overall_stance": "Negative. Xibei's hardline response did not quell the controversy but instead intensified the conflict.",
+          "evolution_direction": "Significant deterioration. The public widely perceived their attitude as arrogant, and the act of 'threatening to sue a customer' further exacerbated negative sentiment.",
+          "polarization_level": "Low, with the majority of public opinion being critical of Xibei's aggressive stance.",
+          "core_dispute": "The dispute quickly expanded from the factual question of 'whether Xibei uses pre-made meals' to the emotional and ethical issue of 'Xibei's attitude towards consumers.' The core of public concern was the consumer's right to know.",
+          "main_arguments": "'A restaurant brand, instead of trying to prove its innocence when questioned, first thinks about suing the customer. So arrogant.' 'Luo Yonghao's satire—cutting open plastic bags and microwaving—spoke for everyone.'",
+          "emotional_tone": "Disgust, anger, and ridicule.",
+          "secondary_topic_diffusion": "The legal threat itself became a secondary topic, sparking a discussion about how corporations should communicate with consumers."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "September 11-14, 2025",
+        "protagonist": "Xibei Youmian Village",
+        "strategy": "Escalated Confrontation & Concept Obfuscation",
+        "content": "To prove our innocence, we have decided to take an unprecedented step in transparency: the kitchens of our 370 stores nationwide will be fully open to the media and the public. We welcome everyone to visit at any time. We have also launched a 'Luo Yonghao Menu' and published the work instruction manuals for 13 dishes so everyone can see our preparation process. It needs to be clarified that products from the central kitchen are pre-processed ingredients, not finished pre-made meals. Pre-processing and pre-made meals are two different things. We insist on standardization, not simple reheating. (A summary of interviews with Jia Guolong and official actions by Xibei).",
+        "situation": {
+          "overall_stance": "Disastrously negative.",
+          "evolution_direction": "The crisis spun completely out of control. The 'open kitchen' initiative backfired, turning into a PR disaster.",
+          "polarization_level": "Extremely low, with the negative consensus further strengthening.",
+          "core_dispute": "A full-blown crisis of trust. In live streams and visits, media and netizens clearly filmed semi-finished products like frozen sea bass and bags of concentrated chicken broth. This created a huge contrast with Xibei's long-promoted image of 'natural' and 'freshly cooked' high-end dining.",
+          "main_arguments": "Xibei's defense was widely seen by the public as 'sophistry' and 'word games.' The mainstream view was: 'This is a pre-made meal, don't try to fool us.'; 'Not only are they deceiving people, but they also want to redefine pre-made meals, insulting consumers' intelligence.' What consumers really care about is not the precise definition of a pre-made meal, but whether they are getting what they pay for at a high price.",
+          "emotional_tone": "Escalated from disgust to widespread anger and distrust.",
+          "secondary_topic_diffusion": "Xibei's act of publicly disclosing Luo Yonghao's dining receipt during this period sparked a secondary crisis over invasion of consumer privacy, leaving it ethically criticized and further worsening the negative public opinion."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "September 15, 2025",
+        "protagonist": "Xibei Youmian Village",
+        "strategy": "Comprehensive Apology & Specific Reform Commitments",
+        "content": "An Apology Letter to Our Valued Customers: The recent turmoil has caused widespread concern and anxiety. After deep reflection, we realize that Xibei's production processes have a significant gap with customer expectations and have failed to meet the needs and desires of our customers. Here, Xibei extends its deepest apologies for the trouble and worry caused. We promise, 'Though the customer may abuse me a thousand times, I shall treat the customer like my first love.' From now on, Xibei will play with its cards on the table and be a transparent Xibei. We will immediately implement reforms and promise to complete the following adjustments by October 1st: 1. Replace all soybean oil with non-GMO soybean oil. 2. Change 9 dishes originally processed in the central kitchen, such as children's meal beef sauce, grilled lamb skewers, and hand-shredded spicy chicken, to be processed on-site in the store, or cut, skewered, and grilled fresh in the store. We sincerely accept everyone's supervision.",
+        "situation": {
+          "overall_stance": "Negative public opinion was effectively curbed, and discussions began to shift towards neutral and rational.",
+          "evolution_direction": "The trend of continuous deterioration was reversed. The apology letter, due to its sincere attitude, specific commitments, and swift action, managed to salvage the situation to some extent.",
+          "polarization_level": "Opinion began to diverge, with some accepting the apology while others remained reserved.",
+          "core_dispute": "The focus shifted to the implementation of the reform measures.",
+          "main_arguments": "The apology was considered timely, but the phrase 'Though the customer may abuse me a thousand times' sparked new controversy and was seen as inappropriate, and was later revised.",
+          "emotional_tone": "Anger subsided, replaced by a wait-and-see and supervisory attitude.",
+          "secondary_topic_diffusion": "The public's focus began to shift from condemning Xibei to a broader discussion about industry standards for pre-made meals and the consumer's right to know. To some extent, Xibei successfully transformed its own crisis into an industry-wide issue."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-04",
+    "company": "Nongfu Spring",
+    "event_name": "Public Opinion Storm",
+    "date": "February-March 2024",
+    "crisis_type": "Value-Action Divergence",
+    "core_conflict": "Business Ethics, Nationalist Sentiment, Online Rumors",
+    "event_summary": "Against the backdrop of the passing of Wahaha Group's founder, Zong Qinghou, Nongfu Spring and its founder, Zhong Shanshan, faced a complex public opinion storm ignited by a narrative of 'ingratitude,' blending business rivalry history, nationalist sentiments, and online rumors. The crisis quickly escalated from moral accusations against the founder to attacks on the company's product packaging for being 'pro-Japan' and the nationality of his family members, leading to a sharp decline in brand sales and stock price. Zhong Shanshan made several rounds of clarifications by publishing a signed article and accepting interviews with official media, gradually quelling the widespread boycott.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "February 25-28, 2024",
+        "protagonist": "Nongfu Spring",
+        "strategy": "Passive Inaction",
+        "content": "In the initial period of widespread public mourning for the passing of Wahaha Group's founder Zong Qinghou, Nongfu Spring and its founder Zhong Shanshan did not immediately make a public statement, remaining passive and not releasing any public statements or condolences.",
+        "situation": {
+          "overall_stance": "Negative public opinion quickly formed and became dominant.",
+          "evolution_direction": "Rapid deterioration. The atmosphere of mourning for Zong Qinghou quickly evolved into an 'online crusade' against Zhong Shanshan.",
+          "polarization_level": "Low, with negative sentiment dominating the initial public discourse.",
+          "core_dispute": "A large number of social media accounts and netizens began to spread the story of 'The Farmer and the Snake,' with the core accusation being that Zhong Shanshan was 'ungrateful,' claiming he had benefited from Zong Qinghou's help early in his career only to betray him by founding Nongfu Spring as a competitor.",
+          "main_arguments": "Zhong Shanshan used his status as a former Wahaha distributor to earn his first pot of gold, then turned around to wage a business war against Wahaha, which was deemed 'ungrateful.'",
+          "emotional_tone": "Moral condemnation, anger. This highly emotionally charged narrative spread quickly, laying the emotional foundation for the subsequent escalation of the crisis.",
+          "secondary_topic_diffusion": "Not yet widespread, but the negative emotional foundation was already set."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "February 28 - March 2, 2024",
+        "protagonist": "Nongfu Spring",
+        "strategy": "Passive Customer Service Response",
+        "content": "Facing online accusations that its product packaging was 'pro-Japan,' Nongfu Spring's public response was limited to its customer service department. Customer service explained externally that the building design on the 'Oriental Leaf' green tea product was an artistic creation based on the 'image of Chinese temples,' and the text on the bottle was intended to showcase 'the influence of Chinese tea and tea culture on the world,' reflecting national confidence.",
+        "situation": {
+          "overall_stance": "Negative public opinion continued to intensify.",
+          "evolution_direction": "The crisis escalated in a more dangerous direction toward nationalism.",
+          "polarization_level": "The negative consensus further expanded and solidified.",
+          "core_dispute": "The core dispute expanded from personal moral issues to issues of national sentiment and identity.",
+          "main_arguments": "'An ungrateful person, making pro-Japan products, whose son is an American, earning Chinese money for America—we cannot support this.' This chain of accusations, simple and emotionally impactful, rapidly intensified public calls for a boycott.",
+          "emotional_tone": "Anger, nationalist sentiment, boycott.",
+          "secondary_topic_diffusion": "The 'ungrateful' narrative spawned more points of attack. Some netizens began to question whether the packaging design of Nongfu Spring's 'Oriental Leaf' tea drink contained Japanese elements (like a five-storied pagoda), deeming it a 'pro-Japan' act. Simultaneously, rumors about Zhong Shanshan's son, Zhong Shuzi, being an American citizen spread widely and were linked to fears that 'Nongfu Spring might not be a Chinese company in the future,' elevating a business dispute to the level of national sentiment and identity. Starting from February 28, Nongfu Spring's sales plummeted for five consecutive days, with single-day sales on March 3 dropping by over 90% compared to before the storm. The company's market value shrank by over 20 billion Hong Kong dollars."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "March 3, 2024",
+        "protagonist": "Nongfu Spring (Zhong Shanshan)",
+        "strategy": "Founder's Signed Article for Direct Clarification",
+        "content": "A Few Things Between Me and Mr. Zong: Hello everyone, I am Zhong Shanshan. After Mr. Zong passed away, I went to the memorial hall to pay my respects and offer a wreath, and I am deeply saddened by his passing. A large amount of slander against me personally and against Nongfu Spring has appeared online, which is certainly not what Mr. Zong would have wanted to see. Here, I would like to clarify a few points: First, my first fortune was made from the textile business, not Wahaha. Second, regarding the 'parallel importing' rumors, I was never on Wahaha's payroll, let alone fired for it. Third, Mr. Zong and I had long since made peace after the 'natural water vs. purified water' debate. I respect Mr. Zong's entrepreneurial spirit and hope that everyone will not be misled by those with ulterior motives.",
+        "situation": {
+          "overall_stance": "Public opinion began to diverge, but remained predominantly negative.",
+          "evolution_direction": "The pace of deterioration slowed, but the storm did not immediately subside.",
+          "polarization_level": "Significant divergence appeared. On one hand, some rational voices began to emerge, calling for an objective view of business competition and believing the article clarified key rumors. On the other hand, as nationalist sentiment had already been ignited, many netizens felt his response was 'evasive' and did not directly address the more inflammatory issues of being 'pro-Japan' and his 'son's nationality.'",
+          "core_dispute": "The focus of the dispute partially shifted from the founder's business ethics to the sincerity and completeness of his response.",
+          "main_arguments": "Supporters believed the facts were clarified and should be viewed rationally. Opponents argued that he avoided key issues and was not sincere.",
+          "emotional_tone": "Anger was mixed with some rational discussion, but overall negative sentiment remained high.",
+          "secondary_topic_diffusion": "The response served to clarify facts to some extent, but its effect was limited in a public sphere already dominated by emotion. Nongfu Spring's stock price continued to fall, and the turmoil persisted."
+        }
+      },
+      {
+        "node_id": 4,
+        "timestamp": "August & November 2024",
+        "protagonist": "Nongfu Spring (Zhong Shanshan)",
+        "strategy": "Official Media Interview & Public Reflection",
+        "content": "Regarding the online stigma, some things can't be washed clean. Let it be, the sky will clear. As for the concern about my son's nationality, I can tell you clearly: 'I have definitely considered the most important ownership issue very carefully. Nongfu Spring will always belong to China.' Resuming production of purified water is also about giving consumers back their right to choose. As an entrepreneur, someone like me should inherently bear more grievances than others.",
+        "situation": {
+          "overall_stance": "The public discourse largely returned to normal, and the large-scale boycott movement gradually subsided.",
+          "evolution_direction": "The crisis entered its final phase, and the brand image began a slow recovery.",
+          "polarization_level": "Most of the public opinion shifted to neutral or understanding, although a small amount of negative sentiment remained.",
+          "core_dispute": "The core disputes were mostly resolved.",
+          "main_arguments": "Through the authoritative endorsement of official media, Zhong Shanshan's explanation gained higher credibility.",
+          "emotional_tone": "Became calm and rational.",
+          "secondary_topic_diffusion": "Zhong Shanshan's positive response on an official media platform demonstrated a crisis management path from passive clarification to proactive communication and then to public reflection. Although there was still noise online, his candid attitude and direct response to sensitive issues ultimately won the understanding of the majority of the public, allowing him to successfully navigate the crisis."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-05",
+    "company": "Kyte Baby",
+    "event_name": "Firing of Mother with Newborn in NICU",
+    "date": "January 2024",
+    "crisis_type": "Value-Action Divergence",
+    "core_conflict": "Corporate Ethics, Lack of Empathy, Brand Hypocrisy",
+    "event_summary": "Kyte Baby, a brand specializing in baby apparel, faced a public relations crisis after denying a remote work request from an employee who had just adopted a premature baby in the NICU, which ultimately led to her termination. The founder and CEO's first apology was criticized as 'scripted and insincere,' causing the crisis to escalate. Hours later, she released a second, emotional, and accountable apology video, proposing specific remedies. This successfully turned public opinion around, becoming a textbook case on how to deliver an effective and sincere apology.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "January 2024",
+        "protagonist": "Kyte Baby",
+        "strategy": "Internal Decision, No Public PR",
+        "content": "The company's management and HR department denied employee Marissa Hughes's request to work remotely while her newly adopted premature baby was in the Neonatal Intensive Care Unit (NICU), and ultimately terminated her. There was no external PR action at this stage.",
+        "situation": {
+          "overall_stance": "Strongly negative.",
+          "evolution_direction": "The story exploded quickly on social media (TikTok). Hughes's family posted about the incident on TikTok, and the video went viral.",
+          "polarization_level": "Extremely low, with a one-sided condemnation forming among the community of mothers.",
+          "core_dispute": "Extreme divergence between brand value and action. The public was shocked and angered that a 'family-oriented' baby brand would make such an unempathetic decision towards a mother needing to care for a critically ill newborn.",
+          "main_arguments": "The brand's actions were hypocritical and inconsistent. A brand that relies on mothers as its core consumer base hurt a mother with its actions.",
+          "emotional_tone": "Anger, shock, and disbelief. Calls to boycott the brand arose, especially among its core consumers—mothers.",
+          "secondary_topic_diffusion": "The incident sparked a broad discussion on corporate parental leave policies and workplace flexibility in the United States."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "January 2024",
+        "protagonist": "Kyte Baby (CEO Ying Liu)",
+        "strategy": "Scripted First Apology",
+        "content": "Hi everyone, I'm Ying, the founder of Kyte Baby. Kyte Baby prides itself in being a family-oriented company. Regarding Marissa's situation, I am very sorry for 'how her parental leave was communicated and handled.' This was an 'oversight,' and we are reviewing our HR policies to ensure this does not happen again. (Based on the first apology video posted by CEO Ying Liu on TikTok).",
+        "situation": {
+          "overall_stance": "Negative sentiment further intensified.",
+          "evolution_direction": "Crisis escalated. The apology video triggered a stronger negative reaction than the incident itself.",
+          "polarization_level": "The negative consensus was further strengthened.",
+          "core_dispute": "The focus shifted to the sincerity of the CEO's apology.",
+          "main_arguments": "'This is the most insincere apology I have ever seen.'; 'She can't even look at the camera.'; 'Blaming HR is a classic CEO move to shift responsibility.' The video was perceived as her reading from a script prepared by lawyers, lacking genuine emotion.",
+          "emotional_tone": "Anger, contempt, and ridicule.",
+          "secondary_topic_diffusion": "The public widely perceived Ying Liu's apology as insincere, merely 'reading a script prepared by lawyers' and lacking genuine feeling. Her attempt to shift the blame to 'communication' and 'HR oversight,' while evading her own core responsibility as the decision-maker, was seen as a hypocritical PR tactic that further enraged the public."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "January 2024 (Hours after first apology)",
+        "protagonist": "Kyte Baby (CEO Ying Liu)",
+        "strategy": "Sincere, Accountable Second Apology & Remedy",
+        "content": "I'm here to make a second video because the first one wasn't sincere. I want to be transparent. I'm the one who made the decision to veto her request to go remote... This was a terrible decision. I was insensitive and selfish. I have already reached out to Marissa to sincerely apologize to her personally. I also want to publicly apologize to her and to all the Kyte Baby community members I have hurt. We will not only continue to pay her salary but will also hold her position for her, and she can come back to work remotely anytime. I was wrong, and I am truly sorry. (Based on the second apology video posted by CEO Ying Liu).",
+        "situation": {
+          "overall_stance": "Public opinion was largely turned around, shifting from strongly negative to neutral with some understanding.",
+          "evolution_direction": "The crisis was effectively controlled and mitigated.",
+          "polarization_level": "Opinion became clearly divided, with the majority accepting the apology, but some remained skeptical.",
+          "core_dispute": "The focus of the discussion shifted from 'the brand's hypocrisy' to 'how to make an effective, sincere apology,' and the incident itself became a widely cited case study in crisis management.",
+          "main_arguments": "The second apology was seen as sincere because it directly admitted personal fault ('I'm the one who made the decision') instead of shifting blame. Some comments suggested it showed a willingness to reflect and change. However, the terminated employee, Marissa, stated that the CEO had not reached a settlement with her as claimed in the video and had rejected the offer of reinstatement and compensation, which made some of the public question the true motive of the apology.",
+          "emotional_tone": "Shifted from anger to understanding, empathy, and some appreciation.",
+          "secondary_topic_diffusion": "The second apology video was the decisive turning point in this crisis. The public saw the CEO's genuine remorse and courage to take personal responsibility. This 'heartfelt' apology and the specific remedies made many consumers feel the brand's willingness to reflect and change. Although the brand's reputation had been damaged, this successful apology prevented the crisis from spreading further."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-06",
+    "company": "Bumble",
+    "event_name": "'Anti-Celibacy' Ad Campaign Controversy",
+    "date": "May 2024",
+    "crisis_type": "Marketing-Context Misalignment",
+    "core_conflict": "Female Empowerment, Brand Value Betrayal, Social Issue Marketing",
+    "event_summary": "Bumble, the female-led dating app, launched a series of ads with the core slogan 'A Vow of Celibacy Is Not The Answer' as part of a rebranding campaign. This move was perceived by its core user base as a blatant lecture and belittlement of women's choices, contradicting its long-advocated brand spirit of 'female empowerment' and triggering a strong social backlash. Bumble eventually quelled the controversy through a comprehensive apology, withdrawing the ads, and donating to relevant non-profit organizations.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "April-May 2024",
+        "protagonist": "Bumble",
+        "strategy": "Rebranding & Controversial Marketing",
+        "content": "Amidst the frustrations of modern dating, we hear you. But we believe that 'A Vow of Celibacy Is Not The Answer.' We encourage you not to give up, because 'Thou shalt not give up on dating and become a nun.' Bumble is starting fresh with a more fun and positive way to help you find your connection. (Synthesized from ad slogans in Bumble's rebranding campaign).",
+        "situation": {
+          "overall_stance": "Almost immediately sparked a strong negative social backlash.",
+          "evolution_direction": "Negative public opinion quickly fermented.",
+          "polarization_level": "Low, with a strong negative consensus forming among the core user group.",
+          "core_dispute": "Brand value divergence. As a brand whose core selling point is 'female empowerment' and 'women make the first move,' Bumble's new ads were seen as a blatant lecture and devaluation of women's choices, running contrary to its brand ethos.",
+          "main_arguments": "Critics pointed out that women choose celibacy or to pause dating for many complex reasons, including fear of dating violence, concerns for their own safety, and as an autonomous choice in the context of restricted reproductive rights. Bumble's ads were not only 'tone-deaf' but also offensive because they seemed to blame women for their choices rather than addressing the root problems that lead them to choose celibacy.",
+          "emotional_tone": "Disappointment, a sense of betrayal, and anger. Many users expressed their disappointment on social media, feeling that Bumble was 'betraying' its core user base, with some even deleting the app.",
+          "secondary_topic_diffusion": "The ads were also seen as offensive to religious individuals (especially Catholics) and the asexual community, further broadening the criticism."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "Early May 2024",
+        "protagonist": "Bumble",
+        "strategy": "Initial Mild Response",
+        "content": "We have heard the concerns about the language in our advertising and understand how it may have had a negative impact on some in our community. We are taking all feedback seriously. (Synthesized from the initial response of the company's communications director).",
+        "situation": {
+          "overall_stance": "Negative public opinion remained high.",
+          "evolution_direction": "The mild response failed to quell the controversy and was seen as perfunctory, causing the criticism to continue.",
+          "polarization_level": "Negative consensus persisted.",
+          "core_dispute": "Remained focused on criticism of the ad's content, with added dissatisfaction over the brand's inadequate response.",
+          "main_arguments": "The brand's response was perceived as downplaying the issue and failing to recognize its seriousness.",
+          "emotional_tone": "Disappointment, anger.",
+          "secondary_topic_diffusion": "The public did not accept this downplayed response and demanded a more formal and profound reflection and apology from the brand."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "Around May 13, 2024",
+        "protagonist": "Bumble",
+        "strategy": "Comprehensive Apology & Remedial Actions",
+        "content": "We made a mistake. Our ads referencing celibacy were an attempt to lean into a community frustrated by modern dating, and instead of bringing joy and humor, we unintentionally did the opposite. We will be removing these ads from our global marketing. To make up for our mistake, we will be making a donation to organizations that support women, such as the National Domestic Violence Hotline, and offering our existing ad space to these non-profits to amplify their voices.",
+        "situation": {
+          "overall_stance": "Public opinion shifted to positive, with the public generally acknowledging Bumble's apology.",
+          "evolution_direction": "The crisis was effectively resolved.",
+          "polarization_level": "Opinion became consistent, with the apology being widely accepted.",
+          "core_dispute": "The focus of discussion shifted from 'Bumble's mistake' to 'how a brand can learn from its mistakes and take social responsibility,' turning the event into a positive case study on responsible brand apologies.",
+          "main_arguments": "The apology was considered comprehensive and sincere because it not only admitted the mistake but also provided concrete remedial measures.",
+          "emotional_tone": "Shifted from anger to approval and appreciation.",
+          "secondary_topic_diffusion": "This apology was the key turning point of the crisis. Bumble's apology was considered timely and comprehensive. The company not only admitted its mistake and explained its original intentions but also made amends for the harm caused through concrete actions like donations and ceding ad space, which largely restored public trust."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-07",
+    "company": "Balenciaga",
+    "event_name": "'Poverty Chic' Marketing Controversy",
+    "date": "2024",
+    "crisis_type": "Marketing-Context Misalignment",
+    "core_conflict": "Luxury Ethics, 'Poverty Chic', Controversial Marketing",
+    "event_summary": "Under the direction of its creative director Demna Gvasalia, Balenciaga launched a series of products themed on 'poverty' or 'destruction,' including 'fully destroyed' sneakers priced at $1,850 and a 'trash pouch' handbag for $1,790. These products sparked huge social controversy and were criticized as 'Poverty Chic'—a luxury brand commodifying the state of poverty and selling it at a high price to affluent consumers, leading to widespread discussion on luxury ethics, class, and consumerism.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "May 2022",
+        "protagonist": "Balenciaga",
+        "strategy": "'Poverty Chic' Controversial Marketing",
+        "content": "Introducing the new Paris Sneaker collection. Based on a classic sneaker silhouette, it features distressed canvas and rough edges, giving it a pre-worn look. A limited edition of 100 'fully destroyed' pairs are available, intended to convey the idea that they are meant to be worn for a lifetime. (Synthesized from brand press releases and marketing descriptions). The limited edition sneakers were priced at $1,850.",
+        "situation": {
+          "overall_stance": "Highly negative and polarized.",
+          "evolution_direction": "Negative public opinion quickly fermented and spread on social media.",
+          "polarization_level": "Highly polarized. Some fashion industry insiders and brand loyalists saw it as an avant-garde artistic expression and marketing strategy, while the general public expressed widespread anger and disbelief.",
+          "core_dispute": "The romanticization and commodification of poverty by a luxury brand. Critics questioned whether selling the state of poverty as an 'aesthetic' to the wealthy at a high price was offensive and exploitative to those genuinely in poverty.",
+          "main_arguments": "Mainstream criticism labeled it as 'rich people cosplaying as poor,' a 'tasteless' and 'callous' act. The charity organization The Salvation Army even launched a counter-campaign called 'Truly Destroyed,' showcasing shoes actually worn by homeless people to highlight the disconnect between the luxury brand and reality.",
+          "emotional_tone": "Anger, ridicule, disbelief, and contempt.",
+          "secondary_topic_diffusion": "The event sparked a broad discussion on the history of 'poverty chic' in the fashion industry, as well as deep reflections on consumerism and class differences."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "August 2022",
+        "protagonist": "Balenciaga",
+        "strategy": "Escalated Provocation & Deliberate Scandal-Mongering",
+        "content": "At the Winter 2022 fashion show, we introduced the 'Trash Pouch' for $1,790. I couldn't miss an opportunity to make the most expensive trash bag in the world, because who doesn’t love a fashion scandal? (Quote from creative director Demna Gvasalia to the media).",
+        "situation": {
+          "overall_stance": "Overwhelmingly negative, but mixed with cynical interpretations of the brand's strategy.",
+          "evolution_direction": "The negative narrative was solidified, and the brand's strategy of 'marketing through controversy' became widely recognized by the public.",
+          "polarization_level": "Opinion became consistent, with a general consensus that this was a deliberate act of provocation.",
+          "core_dispute": "The brand's moral bottom line and its contempt for consumers. The creative director's comments confirmed the act was intentional, aimed at gaining attention by creating a 'scandal.'",
+          "main_arguments": "Social media users called the brand a 'sick social experiment.' Many believed the brand was testing the limits of wealthy consumers to see how much they would pay for something so absurd.",
+          "emotional_tone": "Ridicule, anger, cynicism.",
+          "secondary_topic_diffusion": "The discussion shifted to Balenciaga's overall brand strategy under Demna's leadership, concluding that its core was to maintain relevance by constantly creating controversy, from the 'fully destroyed' sneakers to celebrities wearing caution tape outfits, all as part of this strategy."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "December 2022",
+        "protagonist": "Balenciaga (Creative Director Demna Gvasalia)",
+        "strategy": "Public Apology & Brand Reflection",
+        "content": "I want to personally apologize for the wrong artistic choice of concept for the gifting campaign with the kids and I take my responsibility. It was inappropriate to have kids promote objects that had nothing to do with them. ... I have never had an intention to make it a part of my narrative, to provoke thoughts on such a horrible subject as child abuse, which I condemn. Period. (Quote from Creative Director Demna Gvasalia's apology statement released after another, more severe BDSM teddy bear ad crisis).",
+        "situation": {
+          "overall_stance": "Skeptical, but considered a necessary move by the brand under immense pressure.",
+          "evolution_direction": "The brand's continuous controversies peaked with the BDSM teddy bear ad incident, forcing the brand to issue a full apology, which indirectly put an end to previous controversies like the 'poverty chic' campaign.",
+          "polarization_level": "The public widely believed the apology was made under pressure rather than as a result of proactive reflection.",
+          "core_dispute": "The sincerity of the apology and whether the brand would genuinely change its marketing strategy.",
+          "main_arguments": "This apology was widely seen as a cumulative response to a series of controversies, especially after key partners like Kim Kardashian stated they would 're-evaluate' their relationship with the brand.",
+          "emotional_tone": "Skepticism, wait-and-see.",
+          "secondary_topic_diffusion": "Although this apology primarily targeted another crisis, it marked a temporary end to the brand's 'marketing through controversy' strategy. The public and the market began to watch whether the brand would shift to a more cautious and responsible communication style."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-08",
+    "company": "American Eagle",
+    "event_name": "'Great Jeans/Genes' Ad Controversy",
+    "date": "July 2025",
+    "crisis_type": "Marketing-Context Misalignment",
+    "core_conflict": "Culture Wars, Dog-whistle Politics, Narrative Reshaping",
+    "event_summary": "This case analyzes the 'great jeans/genes' advertising campaign launched by American Eagle in July 2025, featuring its brand ambassador Sydney Sweeney. The campaign, intended as playful marketing using a pun, unexpectedly ignited a public opinion storm with accusations of eugenics and racism. However, the crisis trajectory was unique: it was quickly co-opted and reshaped into a landmark event in the American 'culture wars.' With the intervention of conservative media and political figures, the initial negative allegations were overridden by an 'anti-woke' narrative, ultimately transforming the PR crisis into a dramatic commercial success. This case is an excellent example for studying how a brand can passively benefit in a highly politicized public opinion environment and how controversial marketing can unexpectedly turn into a business asset.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "July 23, 2025",
+        "protagonist": "American Eagle",
+        "strategy": "Celebrity Endorsement & Pun-Based Marketing",
+        "content": "Proudly introducing our new collaboration with Sydney Sweeney. As everyone knows, 'Sydney Sweeney has great jeans.' In a special video, we explore this concept further. In the video, Sweeney explains: 'Genes are passed down from parents to offspring, often determining traits like hair color, personality and even eye color. My jeans are blue.' This is a bold and playful way to spark discussion and bring the focus back to our core product in a new and memorable way: jeans.",
+        "situation": {
+          "overall_stance": "Public opinion was highly controversial and polarized from the outset, with negative criticism and positive support emerging almost simultaneously.",
+          "evolution_direction": "Rapid polarization. The ad's pun was intended to be a 'viral' gimmick, but its ambiguity provided space for subsequent controversial interpretations. This marketing strategy inherently carried risks, seemingly aimed at gaining market attention by creating an 'edgy' or 'subversive' topic.",
+          "polarization_level": "Extremely high. The controversy almost immediately unfolded along America's political and cultural fault lines.",
+          "core_dispute": "Whether the ad's creative concept itself was offensive. The core of the debate was whether punning on 'jeans' and 'genes,' performed by an actress who fits traditional white aesthetic standards (blonde hair, blue eyes), inadvertently touched upon sensitive issues of eugenics and racism.",
+          "main_arguments": "Critics argued it was a 'tone-deaf' and potentially discriminatory creative. Supporters claimed it was just a harmless play on words and that critics were being overly 'politically correct' and 'making a mountain out of a molehill.'",
+          "emotional_tone": "A mix of confusion, offense, and anger on one side, and ridicule and support on the other.",
+          "secondary_topic_diffusion": "Not yet widespread, but discussions began to touch on the boundaries of brand marketing, social responsibility, and aesthetic standards in contemporary advertising."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "July 23 - 27, 2025",
+        "protagonist": "American Eagle",
+        "strategy": "Passive Silence",
+        "content": "In the days following the initial controversy sparked by the ad, American Eagle issued no official statement, remaining silent and observing the development of public opinion.",
+        "situation": {
+          "overall_stance": "Negative accusations dominated within specific communities (mainly liberal academics, commentators, and some social media users) and began to be reported by the media.",
+          "evolution_direction": "The negative narrative solidified and deepened. The initial controversy was given deeper sociological and historical interpretations by academia and media commentary, lending more theoretical weight to the accusations.",
+          "polarization_level": "Remained highly polarized, but the critics' arguments began to become more systematic.",
+          "core_dispute": "The focus was clearly on the 'eugenics dog-whistle.' Critics argued that the ad's visual language and wordplay constituted an allusion to 'good genes,' which has disturbing historical resonance with the eugenics movement that was prevalent in the U.S. in the early 20th century and utilized by Nazi Germany.",
+          "main_arguments": "Academics like Columbia University lecturer Sayantani DasGupta explicitly stated on social media that the ad was 'rife with eugenics messaging' and linked it to former President Trump's remarks about certain populations having 'good genes,' arguing that in the current political climate, it reinforced an 'anti-immigrant, anti-people of color' narrative. Northwestern University professor Shalini Shankar also noted that it seemed the brand was aligning itself with a 'white-privileged, MAGA-friendly identity.'",
+          "emotional_tone": "Critics expressed serious concern and moral outrage, while the other side began to view these criticisms as an 'overreaction from the woke crowd.'",
+          "secondary_topic_diffusion": "Notably, subsequent analysis suggested that the scale of the initial 'backlash' may have been exaggerated. It was amplified by a few critical posts being picked up by conservative media and opinion leaders as evidence of 'liberal madness,' thereby artificially creating a larger 'culture war' conflict. The essence of the crisis was not widespread public anger but rather the result of being exploited and reshaped by political forces."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "July 27 - August 4, 2025",
+        "protagonist": "American Eagle",
+        "strategy": "(Passive) Politicization of Controversy",
+        "content": "The brand continued to remain silent, but the nature of the controversy fundamentally shifted. Conservative media, commentators, and even former President Donald Trump began to intervene, defining the criticism of the ad as another example of 'woke culture.' On August 4, 2025, Trump posted on his social media platform: 'Sydney Sweeney, a registered Republican, has the 'HOTTEST' ad out there... Go get 'em Sydney!'",
+        "situation": {
+          "overall_stance": "A dramatic reversal in public opinion. Among the conservative camp, the brand's image quickly became overwhelmingly positive, a symbol of resistance against 'woke culture.'",
+          "evolution_direction": "The crisis was successfully 'hijacked' and transformed into a brand asset. Trump's endorsement was the decisive turning point, completely turning a vague brand controversy into a clear partisan proxy war.",
+          "polarization_level": "Reached its peak. YouGov poll data showed that after Trump's post, the positive impression score for American Eagle among Republican voters rose sharply, while it plummeted among Democratic voters, widening the gap between the two from 20 to 40 percentage points.",
+          "core_dispute": "Shifted entirely from 'does the ad involve eugenics?' to 'do you support the 'anti-woke' culture?' Buying or supporting American Eagle evolved from a consumer behavior into an expression of political stance.",
+          "main_arguments": "The mainstream conservative argument was: 'This is a pushback against 'woke tyranny,'' and 'We are tired of the political correctness that prevents us from celebrating traditional beauty.' Liberals, on the other hand, felt that the brand's silence and the conservative embrace confirmed their initial concerns about the conservative values behind the ad.",
+          "emotional_tone": "Fervent 'victory' and 'support' on one side, and determined 'disappointment' and 'boycott' on the other.",
+          "secondary_topic_diffusion": "The topic spread to a broad discussion on 'cancel culture,' corporate social responsibility, and whether brands should take sides in the 'culture wars.' American Eagle's stock price surged after Trump's endorsement."
+        }
+      },
+      {
+        "node_id": 4,
+        "timestamp": "Early August 2025",
+        "protagonist": "American Eagle",
+        "strategy": "Limited Clarification & Quiet De-escalation",
+        "content": "At the peak of the media storm, American Eagle finally released a brief statement: ''Sydney Sweeney Has Great Jeans' is and always was about the jeans. Her jeans. Her story. We'll continue to celebrate how everyone wears their AE jeans with confidence, their way. Great jeans look good on everyone.' At the same time, the company quietly removed the most controversial video that directly mentioned 'genes' from its official social media channels.",
+        "situation": {
+          "overall_stance": "Remained positive among its newly acquired supporter base, while being seen as ineffective communication by critics.",
+          "evolution_direction": "The crisis's heat began to naturally decline. The statement was a carefully crafted 'non-apology' response. It admitted no wrongdoing, thus avoiding alienation of the new supporters gathered through the 'anti-woke' narrative. At the same time, by reiterating a harmless, inclusive message ('look good on everyone') and removing the most sensitive material, it provided the brand with sufficient 'plausible deniability,' mitigating legal and PR risks to some extent.",
+          "polarization_level": "Still high, but the momentum of intense confrontation had slowed.",
+          "core_dispute": "The energy of the controversy had been exhausted by the political debate, and the brand's own actions were no longer the focus.",
+          "main_arguments": "Supporters believed the brand stood its ground and did not yield to the 'mob.' Critics considered the statement evasive and insincere.",
+          "emotional_tone": "Gradually shifted from intense confrontation to consolidation of views within respective camps.",
+          "secondary_topic_diffusion": "The brand's response strategy itself became a case study in the marketing world, suggesting that in a highly polarized environment, minimal communication can sometimes be the best strategy."
+        }
+      },
+      {
+        "node_id": 5,
+        "timestamp": "September - October 2025",
+        "protagonist": "American Eagle",
+        "strategy": "Narrative Reframing through Business Success",
+        "content": "In an interview with The Wall Street Journal, American Eagle CEO Jay Schottenstein made his first strong comment on the controversy: 'You can't run from fear. We stand behind what we did.' During the company's Q2 earnings call, Chief Marketing Officer Craig Brommers characterized the ad campaign as a huge success, stating it achieved a 'brand and business reset,' led to 'unprecedented new customer acquisition,' attracted 700,000 new customers over the summer, and generated 40 billion media impressions.",
+        "situation": {
+          "overall_stance": "Overwhelmingly positive (from a business and brand strategy perspective).",
+          "evolution_direction": "The crisis narrative was completely terminated and rewritten as a success story. The company waited until it had irrefutable positive business data before having its top leadership address the issue, successfully shifting the criterion of judgment from 'moral right or wrong' to 'business success or failure.'",
+          "polarization_level": "Significantly reduced. The immense commercial success largely marginalized the original critical voices.",
+          "core_dispute": "Shifted entirely from the cultural subtext of the ad to its astonishing business results.",
+          "main_arguments": "The mainstream narrative became: American Eagle successfully found its niche in the 'culture wars' through a bold marketing move and converted it into tangible business growth.",
+          "emotional_tone": "In the business and investment community, the tone was one of 'appreciation' and 'approval.'",
+          "secondary_topic_diffusion": "This event became a landmark case for brand marketing in the 'post-woke era,' sparking in-depth discussions about whether brands should proactively leverage cultural conflicts to achieve business goals. Ultimately, the CEO's firm stance and impressive performance data brought a victorious business conclusion to a crisis that began with moral accusations."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-09",
+    "company": "Unilever",
+    "event_name": "'Sustainability' Greenwashing Controversy",
+    "date": "December 2023 - November 2024",
+    "crisis_type": "Value-Action Divergence",
+    "core_conflict": "Corporate Social Responsibility, Greenwashing, Regulatory Scrutiny",
+    "event_summary": "This case focuses on the 'Greenwashing' crisis faced by consumer goods giant Unilever, stemming from the gap between its long-cultivated image as a 'sustainability leader' and its actual business practices. The tipping point was the UK's Competition and Markets Authority (CMA) announcing a formal investigation into its environmental claims in December 2023. The core conflict of the entire event is that a company that has deeply integrated ESG (Environmental, Social, and Governance) into its brand narrative faced a two-pronged attack from regulatory bodies and environmental organizations over the vagueness of its marketing language and some of its business practices (such as plastic packaging). Ultimately, the CMA concluded its investigation in an ambiguous manner, which provided Unilever an exit from the crisis but also left its brand reputation with a lasting vulnerability.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "December 12, 2023",
+        "protagonist": "Unilever",
+        "strategy": "(Passive) Becoming the Subject of a Regulatory Investigation",
+        "content": "The UK's Competition and Markets Authority (CMA) publicly issued a press release announcing a formal investigation into Unilever. The CMA stated: 'We are concerned that Unilever may be overstating how green certain products are, which could mislead shoppers. This will be through the use of vague and broad claims, unclear statements around recyclability, and natural-looking images and logos – such as green leaves. The review will look at these claims to see if they stack up. If we find greenwashing, we’ll take action to protect consumers.' The investigation specifically mentioned well-known brands such as Cif, Dove, Comfort, and Lynx.",
+        "situation": {
+          "overall_stance": "Strongly negative. For a company that identifies 'sustainability' as its core identity, a 'greenwashing' investigation from a national regulatory authority constitutes a fundamental blow to its brand credibility.",
+          "evolution_direction": "Negative public opinion formed and spread rapidly. The trigger for this event was not a traditional operational accident or scandal, but a proactive regulatory body, signaling a new, systemic risk for corporate ESG communications.",
+          "polarization_level": "Low. In the initial phase, the public and media generally accepted the regulator's concerns, with criticism of Unilever dominating the discourse.",
+          "core_dispute": "Whether there is a systemic disconnect between Unilever's environmental claims and its business practices. The CMA's allegations were very specific, including: 1) Vague and overly broad claims; 2) Exaggerating the 'natural' properties of ingredients; 3) Implying a product is wholly eco-friendly based on a single green aspect; 4) Unclear statements on recyclability.",
+          "main_arguments": "'A giant company that sells itself on ESG is being officially investigated for greenwashing—this is typical hypocrisy'; 'Consumers are trying to make environmentally friendly choices but are being deceived by the marketing language of these big corporations.'",
+          "emotional_tone": "Disappointment, distrust, a sense of being deceived.",
+          "secondary_topic_diffusion": "The investigation sparked widespread skepticism about the environmental claims of the entire Fast-Moving Consumer Goods (FMCG) industry."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "December 12, 2023",
+        "protagonist": "Unilever",
+        "strategy": "Public Refutation & Promise of Cooperation",
+        "content": "In response to the CMA's investigation, a Unilever spokesperson quickly responded: 'We are surprised and disappointed with the CMA's announcement and refute that our claims are in any way misleading. Unilever is committed to making responsible claims about the benefits of our products on our packs and to these being transparent and clear, and we have robust processes in place to make sure any claims can be substantiated. We will continue to co-operate with the CMA and fully comply with further requests for information.'",
+        "situation": {
+          "overall_stance": "The negative stance persisted. The aggressive denial failed to quell external skepticism.",
+          "evolution_direction": "Negative public opinion continued to fester. The company's response was interpreted by outsiders as standard, defensive corporate legal rhetoric. Its use of the words 'surprised and disappointed' was not primarily aimed at appeasing the public but at signaling to investors and the legal community that the company believed its position was solid and would actively challenge the legal proceedings.",
+          "polarization_level": "Remained low, with criticism still being the mainstream view.",
+          "core_dispute": "Whether Unilever's response was credible. The public and media generally believed that a simple denial was insufficient to address the specific concerns raised by the regulatory body.",
+          "main_arguments": "'This is typical PR-speak that avoids the substantive issues'; 'If the processes were truly robust, why would they trigger an official investigation?'",
+          "emotional_tone": "Skepticism, distrust.",
+          "secondary_topic_diffusion": "The media began to dig into Unilever's past controversies regarding its environmental commitments, setting the stage for the next phase of the crisis escalation."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "During the Investigation (2023 - 2025)",
+        "protagonist": "Unilever",
+        "strategy": "(Passive) Enduring Sustained Pressure from External Watchdogs",
+        "content": "While the CMA investigation was ongoing, Unilever did not launch any new large-scale public communication initiatives. However, environmental organizations, particularly Greenpeace, continuously published critical reports, providing public support and real-world evidence for the CMA's investigation.",
+        "situation": {
+          "overall_stance": "The negative image was further solidified.",
+          "evolution_direction": "Trust continued to decline. The formal investigation by the regulatory body and the long-term monitoring by environmental organizations created a powerful synergistic effect. Greenpeace's reports used specific, shocking data (such as the production of 53 billion non-recyclable plastic sachets in 2023) to link the CMA's abstract 'misleading claims' to concrete, devastating environmental consequences, making Unilever's defense appear feeble.",
+          "polarization_level": "Low.",
+          "core_dispute": "Unilever's 'say-do' gap on the issue of plastic pollution. Greenpeace pointed out that Unilever is the world's largest seller of plastic sachets and that its plastic footprint has not decreased as claimed, and has even increased in some respects.",
+          "main_arguments": "'Unilever's 'sustainability' story stands in stark contrast to the reality of it dumping plastic waste in developing countries'; 'This confirms that the CMA's investigation is not baseless but has deep, real-world roots.'",
+          "emotional_tone": "Anger, a sense of hypocrisy.",
+          "secondary_topic_diffusion": "Organizations in other countries, such as the Dutch Consumers' Association, launched similar accusations, stating that over half of the products Unilever sold in the Netherlands had misleading sustainability claims, showing the crisis had the potential for international contagion."
+        }
+      },
+      {
+        "node_id": 4,
+        "timestamp": "November 6, 2024",
+        "protagonist": "Unilever",
+        "strategy": "(Passive) Investigation Closed by Regulator",
+        "content": "The CMA posted an update on its official website, announcing the closure of its investigation into Unilever. The statement said: 'In making this decision, we have considered a range of factors, including the changes Unilever has made to some of its product claims and the wider impact of our work to tackle misleading green claims... In light of these circumstances, the CMA has decided to close this investigation as an administrative priority.' However, the statement included a crucial clarification: 'The CMA has not taken a view on Unilever's compliance with consumer law.'",
+        "situation": {
+          "overall_stance": "Public opinion shifted from negative to neutral, but with strong ambiguity and uncertainty.",
+          "evolution_direction": "The crisis was de-escalated on a legal level, but reputational issues were not fully resolved. This was a typical 'strategic ambiguity' solution: the CMA could claim its regulatory work was effective by forcing Unilever to make (undisclosed) 'changes,' while Unilever avoided the worst-case scenario by having the investigation closed without a ruling of illegality.",
+          "polarization_level": "Began to diverge. One side saw it as a victory for Unilever, while the other believed it was a compromise by a regulator that did not see the investigation through.",
+          "core_dispute": "What was the real reason for closing the investigation? What 'changes' did Unilever actually make? Why didn't the CMA make a final ruling on legality?",
+          "main_arguments": "'This is a respectable exit for both sides, but it doesn't give consumers a clear answer'; 'Although Unilever dodged a bullet, its environmental credibility now has a permanent question mark over it.'",
+          "emotional_tone": "Confusion, skepticism.",
+          "secondary_topic_diffusion": "The discussion shifted to evaluating the effectiveness of regulation and the deterrent effect of such 'inconclusive' investigation outcomes on future corporate greenwashing."
+        }
+      },
+      {
+        "node_id": 5,
+        "timestamp": "November 7, 2024",
+        "protagonist": "Unilever",
+        "strategy": "Positive Framing & Reputation Management",
+        "content": "Unilever issued a statement on the closure of the investigation: 'We are pleased that the CMA has confirmed they are closing their investigation. We have complied with all requests for information throughout this process. We have always been committed to making responsible claims about the benefits of our products on our packs and to these being transparent and clear, and we have robust processes in place to make sure any claims can be substantiated.'",
+        "situation": {
+          "overall_stance": "Attempted to steer public opinion to a positive conclusion, declaring the crisis over.",
+          "evolution_direction": "The crisis entered its final phase, and the brand began the reputation repair stage. Unilever's statement was a clever PR move: it only highlighted the positive outcome of the 'investigation closure' while completely ignoring the CMA's mention of 'changes to product claims' as a precondition for closure. By reiterating its consistent 'responsible' stance, the company sought to frame the entire event as a review that ultimately cleared up a misunderstanding, rather than a corrective process that forced it to change.",
+          "polarization_level": "Decreased. As the official investigation concluded, media and public attention naturally waned.",
+          "core_dispute": "Has Unilever's brand credibility been restored?",
+          "main_arguments": "Although the legal crisis is over, the 'greenwashing' label will be difficult to completely shed in the short term. The brand needs to rebuild consumer trust through future actions, not just statements.",
+          "emotional_tone": "Became subdued, shifting to a wait-and-see attitude regarding the brand's future actions.",
+          "secondary_topic_diffusion": "Although this crisis has concluded in the UK, the scrutiny of Unilever's global business practices it triggered continues. The brand's image as a leader in sustainability has been damaged, and it will face stricter public and media supervision in the future."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-10",
+    "company": "Boeing",
+    "event_name": "737 MAX 9 Door Plug Blowout Incident",
+    "date": "January 2024",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Product Safety, Quality Control, Systemic Trust Crisis",
+    "event_summary": "A door plug panel on an Alaska Airlines Boeing 737 MAX 9 detached mid-flight, causing cabin depressurization. As Boeing was already in a deep trust crisis due to two previous fatal crashes, this incident immediately reignited profound global doubts about its quality control and safety culture. Although the company's CEO quickly admitted fault, subsequent investigations revealed systemic production issues, causing the crisis to deepen and ultimately leading to the CEO's resignation.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "January 5-6, 2024",
+        "protagonist": "Boeing",
+        "strategy": "Initial Technical Response",
+        "content": "We are aware of the incident involving Alaska Airlines Flight 1282. We are working to gather more information and are in contact with our airline customer. A Boeing technical team stands ready to support the investigation. We will cooperate transparently with the NTSB and FAA to determine the cause.",
+        "situation": {
+          "overall_stance": "Extremely negative.",
+          "evolution_direction": "Panic spread rapidly worldwide. Because Boeing had previously suffered two fatal crashes of its 737 MAX 8 aircraft in 2018 and 2019, this incident immediately reignited deep public concerns about its quality control and safety culture.",
+          "polarization_level": "Extremely low, with a broad consensus of concern about Boeing's safety.",
+          "core_dispute": "The safety of Boeing aircraft. Public concern quickly escalated from a single incident to a lack of trust in the entire Boeing production system.",
+          "main_arguments": "Boeing's quality control has systemic problems, this is not an isolated incident.",
+          "emotional_tone": "Panic, anger, and distrust.",
+          "secondary_topic_diffusion": "The next day, the U.S. Federal Aviation Administration (FAA) ordered the grounding of 171 aircraft of the same model worldwide, an action that greatly intensified the severity of the crisis and confirmed the systemic risk to the public."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "January 9, 2024",
+        "protagonist": "Boeing (CEO Dave Calhoun)",
+        "strategy": "CEO's Internal Accountability & Public Commitment",
+        "content": "When it comes to the accident on Friday, we're going to approach this, number one, acknowledging our mistake. This event has shaken me to the bone. We're going to approach it with 100% and complete transparency every step of the way. We are going to work with the NTSB to find out what the root cause is. We will work closely with our customers and regulators to ensure this never happens again. (From a speech by Boeing CEO Dave Calhoun at an all-hands safety meeting).",
+        "situation": {
+          "overall_stance": "The aggressiveness of the negative public opinion lessened, but skepticism remained strong.",
+          "evolution_direction": "The crisis narrative was initially brought under control. Calhoun's quick and public admission of 'our mistake' was widely seen by crisis management experts as a significant improvement in Boeing's PR strategy.",
+          "polarization_level": "Divergence appeared. Some acknowledged his candid attitude, but many remained skeptical due to Boeing's past record.",
+          "core_dispute": "The focus began to shift from 'what happened' to 'how will Boeing fix it.' However, given Boeing's track record, skepticism from the public and regulators remained very high.",
+          "main_arguments": "The CEO's apology is a necessary first step, but the real test lies in the subsequent actions and investigation results.",
+          "emotional_tone": "Skepticism, scrutiny.",
+          "secondary_topic_diffusion": "This move helped to frame the issue as a 'quality control' problem that the company was willing to confront and solve, rather than a 'design flaw' it was trying to cover up, thus avoiding a repeat of the defensive posture from previous crises. However, during a congressional hearing, Calhoun's apology was deemed insufficient by the families of crash victims."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "January-March 2024",
+        "protagonist": "Boeing",
+        "strategy": "Cooperating with Investigation & Showcasing Improvements",
+        "content": "We are fully cooperating with the FAA and NTSB investigations. Safety and quality must and will be above all else. We have taken immediate action to strengthen quality checks on the 737 production line and have paused capacity expansion until we are confident in our quality control. We are conducting a comprehensive, end-to-end review of our manufacturing processes.",
+        "situation": {
+          "overall_stance": "The negative perception was further solidified and confirmed.",
+          "evolution_direction": "Trust continued to decline, and the crisis was confirmed to be a systemic problem.",
+          "polarization_level": "The negative consensus was further strengthened.",
+          "core_dispute": "The narrative of the event quickly moved beyond a single incident. A strict FAA audit of Boeing's production lines found 'non-compliance issues in manufacturing process control, parts handling and storage, and product control.' The NTSB's preliminary investigation found that four key bolts on the door plug were missing.",
+          "main_arguments": "Most damagingly, airlines like United and Alaska also found hardware issues such as 'loose bolts' when inspecting their grounded fleets. This confirmed to the public that the problem was not accidental but a deep, systemic flaw in the production systems of Boeing and its suppliers.",
+          "emotional_tone": "Disappointment, distrust, and concern about systemic problems.",
+          "secondary_topic_diffusion": "CEO Dave Calhoun eventually announced his resignation, further solidifying the public perception that Boeing was in a deep, systemic crisis of trust. This clearly showed that in the context of a systemic collapse of trust, although a PR apology is necessary and correct, its utility is limited. Only verifiable operational-level reforms, not just communication-level efforts, are the sole path to restoring reputation."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-11",
+    "company": "United Airlines",
+    "event_name": "Series of Safety Incidents",
+    "date": "March 2024",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Operational Safety, Maintenance Standards, Cumulative Crisis",
+    "event_summary": "In March 2024, United Airlines experienced a series of highly publicized safety incidents in just a few weeks, including a plane losing a tire, a missing external panel, an engine fire, and a hydraulic system failure. Although these incidents were separate and resulted in no serious injuries, their high frequency raised serious concerns among the public and regulators about the company's operational safety and maintenance standards, creating a cumulative crisis of trust.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "March 2024",
+        "protagonist": "United Airlines",
+        "strategy": "Passive Response & Incident Reporting",
+        "content": "From early to mid-March, United Airlines experienced multiple safety incidents, including but not limited to: on March 7, a Boeing 777 bound for Japan lost a tire during takeoff in San Francisco; on March 8, a Boeing 737 slid off the runway after landing in Houston; on the same day, another Airbus A320 made an emergency landing in Los Angeles due to a hydraulic issue; on March 15, an external panel was found missing from a Boeing 737 after landing. The company issued brief technical statements after each incident and cooperated with investigations.",
+        "situation": {
+          "overall_stance": "Strongly negative.",
+          "evolution_direction": "Negative public opinion rapidly accumulated and fermented. Initial reports of isolated incidents gradually coalesced into a narrative that 'United Airlines is losing control.'",
+          "polarization_level": "Low. The public and media widely expressed concern over the high frequency of incidents.",
+          "core_dispute": "Are there systemic problems with United's operational safety and maintenance standards? The public's question quickly shifted from 'What happened?' to 'Why is it always United?'",
+          "main_arguments": "Although each incident was separate, such a high frequency suggests there may be deeper cultural or procedural issues. The extra scrutiny from the media and the public magnified every minor issue.",
+          "emotional_tone": "Worry, anxiety, and distrust.",
+          "secondary_topic_diffusion": "Given that multiple incidents involved Boeing aircraft, the topic also spread to ongoing concerns about Boeing's aircraft quality, resonating with the Boeing crisis in CASE-10."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "March 18, 2024",
+        "protagonist": "United Airlines (CEO Scott Kirby)",
+        "strategy": "Proactive CEO Reassurance Letter",
+        "content": "Safety is our highest priority and is at the center of everything we do. Unfortunately, in the past few weeks, our airline has experienced a number of incidents that are reminders of the importance of safety. While they are all unrelated, I want you to know that these incidents have our attention and have sharpened our focus. We will review each of these recent events and use what we learn to inform our safety training and procedures for all employee groups. (From a public letter by CEO Scott Kirby to customers).",
+        "situation": {
+          "overall_stance": "Negative public opinion was somewhat mitigated, shifting to a neutral, wait-and-see attitude.",
+          "evolution_direction": "The uncontrolled deterioration of the crisis was contained. The CEO's direct communication was seen as a responsible gesture, acknowledging the problem and promising action.",
+          "polarization_level": "Divergence appeared. Some passengers accepted the reassurance, believing the company was addressing the issue; others felt the letter was vague and needed to see concrete actions.",
+          "core_dispute": "The focus shifted to what specific measures United Airlines would take to enhance safety.",
+          "main_arguments": "The CEO's public letter was a key step in controlling the narrative, redefining a series of seemingly random bad luck events as a 'challenge' that the company was actively managing.",
+          "emotional_tone": "Shifted from anxiety to cautious observation.",
+          "secondary_topic_diffusion": "The CEO's public letter was the key turning point in this cumulative crisis. It successfully shifted the narrative from 'a string of failures' to 'a concentrated review and improvement effort.'"
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "Late March 2024 and beyond",
+        "protagonist": "United Airlines",
+        "strategy": "Cooperating with Regulatory Scrutiny & Announcing Reforms",
+        "content": "We welcome the increased scrutiny from the FAA on our operations. We are working with them to discuss what changes we need to make to become safer. We have already planned several measures, including an extra day of in-person training for pilots and a centralized training curriculum for newly hired maintenance technicians. (Synthesized from the CEO's public letter and subsequent company statements).",
+        "situation": {
+          "overall_stance": "Public opinion largely stabilized.",
+          "evolution_direction": "The crisis entered the resolution and recovery phase.",
+          "polarization_level": "Most of the public opinion shifted to neutral.",
+          "core_dispute": "The findings of the FAA investigation and the long-term effectiveness of the reform measures.",
+          "main_arguments": "As time passed and no major new incidents occurred, public attention gradually shifted. The FAA eventually concluded its investigation without finding major systemic safety issues, which brought the crisis to a close.",
+          "emotional_tone": "Anxiety subsided.",
+          "secondary_topic_diffusion": "United Airlines successfully managed a potentially catastrophic crisis of trust through a three-step strategy of 'acknowledging the problem, promising action, and cooperating with regulators.' It demonstrated that when dealing with a cumulative crisis composed of multiple independent operational failures, proactively acknowledging the existence of a 'pattern' and proposing a systemic solution is more effective than defending each incident individually."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-12",
+    "company": "Tesla",
+    "event_name": "Cybertruck Accelerator Pedal Recall",
+    "date": "April 2024",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Product Quality, Production Processes, Technical Recall Communication",
+    "event_summary": "Tesla recalled nearly all delivered Cybertrucks because the cover of the accelerator pedal could detach and get stuck, causing the vehicle to accelerate unintentionally. The issue was first exposed by owners on social media, sparking concerns about the Cybertruck's production quality and safety. Notably, this recall required a physical repair rather than Tesla's usual over-the-air (OTA) software update, further intensifying public scrutiny of its manufacturing processes.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "Early April 2024",
+        "protagonist": "Tesla",
+        "strategy": "User Social Media Exposure & Unofficial Fermentation",
+        "content": "Cybertruck owners began posting videos on social media platforms like TikTok showing how the metal cover on the accelerator pedal could easily slip off and potentially get wedged under an interior panel, causing the accelerator to be depressed and unable to retract. One owner claimed this defect caused his vehicle to go out of control and crash into a pole.",
+        "situation": {
+          "overall_stance": "Negative.",
+          "evolution_direction": "Negative public opinion spread rapidly on social media. Due to the strong visual impact of the videos, the issue quickly garnered attention from mainstream media and the public.",
+          "polarization_level": "Low, with a general consensus that this was a serious safety hazard.",
+          "core_dispute": "The manufacturing quality and potential safety risks of the Cybertruck.",
+          "main_arguments": "'It's unbelievable that a vehicle with such a futuristic design has a problem with such a basic component.'; 'Unintended acceleration is one of the most dangerous malfunctions a car can have.'",
+          "emotional_tone": "Worry, shock, and disappointment in product quality.",
+          "secondary_topic_diffusion": "The topic spread to discussions of other reported issues with the Cybertruck, such as body rust and windshield wiper failures, creating a negative impression of 'frequent problems.'"
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "Mid-April 2024",
+        "protagonist": "Tesla",
+        "strategy": "Pausing Deliveries & Internal Investigation",
+        "content": "After the social media uproar, it was reported that Tesla had quietly paused Cybertruck deliveries. The company did not immediately issue a public statement but began an internal investigation into the root cause of the problem.",
+        "situation": {
+          "overall_stance": "Consistently negative, with added uncertainty.",
+          "evolution_direction": "Public opinion shifted from 'is there a problem?' to 'how will Tesla respond?' The brand's silence fueled external speculation.",
+          "polarization_level": "Negative consensus continued.",
+          "core_dispute": "Tesla's official stance on and plan for handling this safety issue.",
+          "main_arguments": "'Pausing deliveries is a tacit admission that there's a problem.'; 'Why doesn't Tesla communicate with the public immediately after discovering a problem, like other car companies do?'",
+          "emotional_tone": "Skepticism, anticipation.",
+          "secondary_topic_diffusion": "Tesla's initial silence was consistent with its usual PR style of minimizing external communication until the problem is fully investigated and a solution is available. However, this also put it in a passive position in the court of public opinion."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "April 17-19, 2024",
+        "protagonist": "Tesla",
+        "strategy": "Official Recall & Technical Cause Disclosure",
+        "content": "Tesla filed documents with the National Highway Traffic Safety Administration (NHTSA), officially recalling all 3,878 Cybertrucks produced between November 13, 2023, and April 4, 2024. The recall report stated the cause was 'an unapproved change introduced a lubricant (soap) to aid in the assembly of the pad onto the accelerator pedal. Residual lubricant reduced the retention of the pad to the pedal.' Tesla promised to replace or repair the accelerator pedal assembly for owners free of charge.",
+        "situation": {
+          "overall_stance": "Negative, but the severity of the crisis was contained and moved into the resolution phase.",
+          "evolution_direction": "Public opinion shifted from panic and speculation to monitoring the execution of the recall.",
+          "polarization_level": "Opinion became consistent, agreeing that the recall was the right move but expressing surprise at the cause of the problem.",
+          "core_dispute": "The reason for the recall—'soap'—became the new focus, sparking ridicule and deeper questions about Tesla's production processes and quality control.",
+          "main_arguments": "'It's a joke that a high-tech product worth tens of thousands of dollars has a fatal flaw because soap was used during assembly.'; 'This reflects that Tesla has sacrificed quality control for production speed.'",
+          "emotional_tone": "Ridicule, disappointment, but approval of the recall action itself.",
+          "secondary_topic_diffusion": "This recall was mandatory, and Tesla's communication was clear, direct, and provided a definite solution. However, unlike in the past, this recall required a physical repair, shattering the myth of Tesla's 'OTA is omnipotent' and causing some damage to the brand's image."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-13",
+    "company": "CrowdStrike",
+    "event_name": "Global IT Outage Incident",
+    "date": "July 2024",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Technical Reliability, B2B Crisis Communication, Supply Chain Risk",
+    "event_summary": "On July 19, 2024, a routine software update from global cybersecurity giant CrowdStrike had a fatal flaw, causing millions of computers running the Windows operating system worldwide to crash and enter a 'blue screen of death' state. The event triggered a global disruption of services in critical sectors such as aviation, finance, healthcare, and retail, and is considered one of the most severe IT failures in history. As a security company, it became a global source of risk itself, sparking a profound crisis regarding its technical reliability and the vulnerability of the modern IT supply chain.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "July 19, 2024 (04:09 UTC)",
+        "protagonist": "CrowdStrike",
+        "strategy": "Faulty Software Update Deployment",
+        "content": "CrowdStrike pushed a Falcon sensor configuration file update named 'Channel File 291' to its global customers' Windows devices. The update contained a logic error that caused the kernel of affected systems to fail, leading to massive blue screens of death and reboot loops.",
+        "situation": {
+          "overall_stance": "Catastrophic negative impact.",
+          "evolution_direction": "As different time zones around the world began their business day, reports of failures grew exponentially, quickly escalating into a global crisis. It started with grounded airlines in Australia and spread to Asia, Europe, and the Americas.",
+          "polarization_level": "Extremely low. Affected organizations and individuals worldwide faced the same problem.",
+          "core_dispute": "The immediate focus was on the massive impact of the failure: flights were canceled, hospital systems were paralyzed, banking transactions were disrupted, and emergency services failed.",
+          "main_arguments": "Initially, it was 'What is happening?' As companies like Google pointed to CrowdStrike's update around 7:15 UTC, public opinion quickly focused on the security company.",
+          "emotional_tone": "Chaos, panic, and frustration.",
+          "secondary_topic_diffusion": "Microsoft estimated that about 8.5 million devices were affected. Over 5,000 flights were canceled worldwide. The event is expected to cause billions of dollars in economic losses."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "July 19, 2024 (05:27 UTC and after)",
+        "protagonist": "CrowdStrike (CEO George Kurtz)",
+        "strategy": "Swift Acknowledgment & CEO's Public Apology",
+        "content": "About 80 minutes after discovering the problem, CrowdStrike rolled back the faulty update. Subsequently, CEO George Kurtz quickly issued a public statement and gave television interviews, apologizing to all affected customers and the public: 'I want to apologize directly to all of you for today's outage. ... This was not a cyberattack. ... Nothing is more important than the trust and confidence our customers and partners have in CrowdStrike.'",
+        "situation": {
+          "overall_stance": "The act of apologizing itself was positively received but failed to immediately erase the negative impact of the event.",
+          "evolution_direction": "The crisis narrative shifted from an 'unknown disaster' to a 'technical failure caused and being resolved by CrowdStrike.' The company's rapid response and transparent communication successfully seized control of the narrative.",
+          "polarization_level": "Opinion was consistent, with general approval of the CEO's apologetic stance.",
+          "core_dispute": "The focus shifted from 'Whose fault is it?' to 'How to fix it?' and 'When will service be restored?'",
+          "main_arguments": "Kurtz's swift apology was considered a rare example of corporate accountability and helped to stabilize market confidence.",
+          "emotional_tone": "Shifted from panic to anxious waiting for a solution.",
+          "secondary_topic_diffusion": "The CEO's quick, public, and candid apology was the key turning point in this crisis management. It positioned the company as the problem-solver rather than a responsibility-shirker, laying the foundation for rebuilding trust."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "Late July 2024 and beyond",
+        "protagonist": "CrowdStrike",
+        "strategy": "Customer Retention & Financial Remediation",
+        "content": "CrowdStrike actively worked with affected customers, providing technical support and solutions, including manual fix procedures. In its third-quarter earnings report, the company disclosed that expenses related to the incident were $33.9 million and that it had provided 'customer commitment packages' (discounts) to some clients to compensate for their losses.",
+        "situation": {
+          "overall_stance": "Views on the company's long-term prospects shifted from neutral to cautiously optimistic.",
+          "evolution_direction": "The narrative shifted to reflection on the event and discussion of its long-term impact.",
+          "polarization_level": "Views among business customers and market analysts became consistent.",
+          "core_dispute": "The discussion moved to deeper industry issues, such as the 'single point of failure' risk in the technology supply chain and whether to diversify security vendors.",
+          "main_arguments": "Despite the huge losses (such as Delta Air Lines suing for $500 million), CrowdStrike's crisis handling and its key position in the market helped it avoid a mass customer exodus.",
+          "emotional_tone": "Became rational and analytical.",
+          "secondary_topic_diffusion": "Despite taking a huge reputational and financial hit, CrowdStrike's customer retention rate remained above 97% in the quarter following the incident. Its stock price, after a sharp drop, rebounded quickly within a few months, showing the market's confidence in its long-term value. This reveals that in a critical technology supply chain, deeply integrated vendors have extremely high customer stickiness, and even after a major failure, the cost and risk of replacement may be higher than continuing the partnership."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-14",
+    "company": "Glasgow 'Willy's Chocolate Experience'",
+    "event_name": "Deceptive Marketing Incident",
+    "date": "February 2024",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Consumer Fraud, AI Misuse, False Advertising",
+    "event_summary": "In February 2024, an event in Glasgow, Scotland, called 'Willy's Chocolate Experience,' turned into a global farce and PR disaster due to a massive discrepancy between its promotional materials and the actual event. The organizer, 'House of Illuminati,' used a large number of fantastical AI-generated images to attract families, selling tickets for up to £35 per person. However, upon arrival, attendees found that the so-called 'immersive experience' was just a sparsely decorated, poorly equipped warehouse, leading to numerous complaints, the event's shutdown, and police intervention.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "February 2024",
+        "protagonist": "House of Illuminati",
+        "strategy": "AI-Generated Content Driven Deceptive Marketing",
+        "content": "Welcome to Willy's Chocolate Experience, where chocolate dreams become a reality. Here, you will enter a world of wondrous creations and enchanting surprises. (Event promotional text). The event's official website and social media ads used numerous colorful and imaginative AI-generated images depicting candy forests, magical gardens, and chocolate waterfalls. These images were filled with typical AI generation errors, such as spelling mistakes ('a pasadise of sweet teats') and nonsensical words ('catgacating').",
+        "situation": {
+          "overall_stance": "Initially created positive anticipation among the target audience (families).",
+          "evolution_direction": "Stable, but some netizens familiar with AI-generated content expressed skepticism on communities like Reddit, believing it to be a scam.",
+          "polarization_level": "Divergence between ticket buyers and skeptics.",
+          "core_dispute": "No controversy had formed yet, but the potential risk lay in the gap between the promotion and reality.",
+          "main_arguments": "Ticket buyers were attracted by the promotional images and expected a high-quality family entertainment event.",
+          "emotional_tone": "Anticipation, excitement.",
+          "secondary_topic_diffusion": "The organizers exploited the general public's limited ability to identify AI-generated images to conduct low-cost, high-attraction marketing."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "February 24, 2024",
+        "protagonist": "House of Illuminati",
+        "strategy": "On-site Experience Failure & Customer Outrage",
+        "content": "On the day of the event, ticket holders arrived at the venue in Glasgow to find that the 'immersive experience' was just a nearly empty warehouse with a few cheap props, a small bouncy castle, and some AI-printed backdrops taped to the walls. Children received only one or two jelly beans and a small cup of lemonade each. The script for the actors on site was also described as 'AI-generated gibberish.'",
+        "situation": {
+          "overall_stance": "Disastrously negative.",
+          "evolution_direction": "On-site anger quickly spread through social media, and the event became an internet sensation. Angry parents demanded refunds and eventually called the police.",
+          "polarization_level": "Extremely low, with all participants and onlookers unanimously condemning the event.",
+          "core_dispute": "Consumer fraud and the misuse of AI technology. The core of the incident was the shocking chasm between the advertising and the reality.",
+          "main_arguments": "'This was a complete and utter scam.'; 'The organizers used AI pictures to deceive everyone.'",
+          "emotional_tone": "Anger, disappointment (especially from the children), a sense of being cheated, and ridicule.",
+          "secondary_topic_diffusion": "The event quickly turned into a global internet meme. One of the actresses playing an 'Oompa Loompa,' Kirsty Paterson, went viral for her dejected expression in front of the shoddy backdrop. An original character created by the AI script, named 'The Unknown,' also became an internet focus due to its bizarre appearance, even spawning plans for a horror movie production."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "Late February 2024",
+        "protagonist": "House of Illuminati (Founder Billy Coull)",
+        "strategy": "Apology, Refund Promise & Blame Shifting",
+        "content": "Event organizer Billy Coull issued an apology after the event spiraled out of control, stating he was 'truly and utterly sorry' for the 'chaos' and promised full refunds to all ticket holders. He blamed the failure on 'technical issues' and being 'let down by suppliers at the last minute.'",
+        "situation": {
+          "overall_stance": "Persistently negative.",
+          "evolution_direction": "The focus of public opinion shifted from the absurdity of the event itself to digging into the organizer's background.",
+          "polarization_level": "Negative consensus continued.",
+          "core_dispute": "The organizer's integrity and competence.",
+          "main_arguments": "The public generally did not accept Coull's explanation, believing he was intentionally fraudulent. Media investigations found that Coull had a history of questionable activities, such as self-publishing conspiracy theory books using AI, further confirming his pattern of misusing AI technology.",
+          "emotional_tone": "Skepticism, condemnation.",
+          "secondary_topic_diffusion": "Coull's apology was seen as insincere, and his attempt to shift blame failed to gain public trust. The event became a cautionary tale about the misuse of AI technology in marketing for fraudulent purposes, showcasing the intense public backlash that can occur when the beautiful promises generated by technology collide with a shoddy reality."
+        }
+      }
+    ]
+  },
+  {
+    "event_id": "CASE-15",
+    "company": "Tesla",
+    "event_name": "'Full Self-Driving' (FSD) Safety Crisis",
+    "date": "2025",
+    "crisis_type": "Operational-Trust Failure",
+    "core_conflict": "Technological Safety & Ethics, Legal Liability, Data-Driven PR",
+    "event_summary": "In 2025, Tesla's 'Full Self-Driving' (FSD) system faced an in-depth investigation by the National Highway Traffic Safety Administration (NHTSA) due to a series of incidents involving traffic violations and accidents. The investigation covered nearly 2.9 million vehicles and focused on dangerous behaviors such as the FSD system running red lights or steering into oncoming traffic without warning. This crisis not only challenged the safety of Tesla's technology but also placed its long-standing ambiguous strategy in naming and marketing 'self-driving' under legal and regulatory scrutiny, constituting a systemic crisis of trust in its core technological promises and corporate integrity.",
+    "nodes": [
+      {
+        "node_id": 1,
+        "timestamp": "October 2025",
+        "protagonist": "Tesla",
+        "strategy": "Regulatory Investigation Initiated",
+        "content": "The National Highway Traffic Safety Administration (NHTSA) announced it had launched a preliminary evaluation after receiving 58 crash reports involving Tesla's FSD system. The investigation covers nearly 2.9 million Tesla vehicles equipped with FSD or FSD Beta. The investigation focuses on two specific types of dangerous behavior: 1) vehicles running red lights while in FSD mode; 2) FSD directing the vehicle to change lanes into oncoming traffic. These incidents have reportedly led to over 14 collisions and fires, as well as 23 injuries.",
+        "situation": {
+          "overall_stance": "Strongly negative.",
+          "evolution_direction": "Negative public opinion quickly concentrated. The official NHTSA investigation provided authoritative confirmation for long-standing concerns about FSD safety that had been circulating on social media and in owner communities.",
+          "polarization_level": "Low, with the public generally expressing concern about FSD's safety, although loyal Tesla supporters continued to defend it.",
+          "core_dispute": "The actual safety and reliability of FSD technology. Many reports indicated that the vehicle did not give adequate warning to the driver before performing dangerous maneuvers, leaving them no time to intervene.",
+          "main_arguments": "'FSD technology is far from mature, and large-scale testing on public roads is irresponsible to public safety.'; 'Tesla's system cannot reliably adhere to basic traffic laws.'",
+          "emotional_tone": "Worry, fear, and anger over technological over-promising.",
+          "secondary_topic_diffusion": "The investigation raised questions about whether Tesla was timely in reporting accidents to regulators, and NHTSA has launched a separate investigation into this matter."
+        }
+      },
+      {
+        "node_id": 2,
+        "timestamp": "October-November 2025",
+        "protagonist": "Tesla (CEO Elon Musk)",
+        "strategy": "Conflict Between Marketing Narrative & Regulatory Warning",
+        "content": "While the NHTSA investigation was ongoing, Tesla and its CEO Elon Musk continued to promote FSD's advanced capabilities through social media and other channels, and released a more aggressive driving style option called 'Mad Max' mode. Concurrently, NHTSA sent a warning letter to Tesla, accusing its social media promotions (such as retweeting videos of owners letting their cars drive automatically) of being misleading and contradicting Tesla's official requirement that 'the driver must remain attentive at all times,' potentially causing drivers to overestimate the vehicle's capabilities.",
+        "situation": {
+          "overall_stance": "Persistently negative, with further damage to brand credibility.",
+          "evolution_direction": "The crisis expanded from a technical safety issue to one of corporate integrity and marketing ethics.",
+          "polarization_level": "Further polarization between critics and supporters.",
+          "core_dispute": "Whether Tesla intentionally misleads consumers in its promotion of FSD capabilities. The name 'Full Self-Driving' itself is highly controversial.",
+          "main_arguments": "'Tesla's marketing is in complete contradiction with their legal disclaimers, which is irresponsible.'; 'Musk's exaggerated claims about FSD's capabilities directly lead to driver misuse and accidents.'",
+          "emotional_tone": "Anger, distrust, and accusations of the brand's double standards.",
+          "secondary_topic_diffusion": "Musk's response to criticism was typically defensive or aimed at diverting focus by releasing software updates and new features, rather than directly admitting problems with the marketing strategy. He acknowledged a 'seesaw problem' in FSD development (solving one problem creates another) and admitted to being 'overly optimistic,' but still insisted on his technological path."
+        }
+      },
+      {
+        "node_id": 3,
+        "timestamp": "2025 and beyond",
+        "protagonist": "Tesla",
+        "strategy": "Legal Battles & Data-Driven Defense",
+        "content": "Facing the NHTSA investigation and multiple lawsuits arising from FSD/Autopilot accidents, Tesla's core defense strategy is: 1) Legally, to insist that FSD is a Level 2 driver-assist system, with the ultimate responsibility lying with the driver; 2) Data-wise, to repeatedly emphasize that its vehicle driving data shows that the accident rate for vehicles with driver-assist enabled is far lower than the average for human drivers. The company supports this argument by publishing safety reports, using this as the core evidence that its technology provides a 'net safety benefit.'",
+        "situation": {
+          "overall_stance": "Negative public opinion persists at the legal and regulatory levels, but presents a complex picture among users and investors.",
+          "evolution_direction": "The crisis evolved into a long-term tug-of-war over the interpretation of data and the definition of legal liability.",
+          "polarization_level": "Highly polarized. Regulators and the legal community tend to focus on technical failures and misleading marketing in individual cases, while Tesla and its supporters emphasize the safety improvements shown in macroscopic data.",
+          "core_dispute": "The definition of 'safety.' Should it be based on macroscopic statistics of millions of accident-free miles, or on the system making basic errors in critical moments that a human driver would not make (such as failing to recognize stationary emergency vehicles)?",
+          "main_arguments": "Critics argue that Tesla's data is misleading because it does not make an 'apples-to-apples' comparison with human-driven vehicles that have equivalent active safety features. Supporters argue that any technology that can reduce the overall accident rate should be promoted.",
+          "emotional_tone": "Controversy, debate, uncertainty.",
+          "secondary_topic_diffusion": "Tesla's PR strategy relies heavily on its founder's personal charisma and a data-driven narrative. It attempts to bypass criticism from traditional media and regulators to communicate directly with users and investors, maintaining market confidence by continuously iterating software and presenting a vision for the future (like Robotaxi). This strategy has had some success in maintaining core user loyalty and stock price but has made little progress in resolving the fundamental legal and ethical disputes."
+        }
+      }
+    ]
+  }
+]
