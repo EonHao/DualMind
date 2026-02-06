@@ -8,9 +8,10 @@
 
 <br>
 
-[Enhao Huang](LINK), [Tongtong Pan](LINK), [Shuhuai Zhang](LINK), [Qishu Jin](LINK), [Liheng Zhen](LINK), [Kaichun Hu](LINK), [Yiming Li](LINK) $^\dagger$, [Zhan Qin](LINK), [Kui Ren](LINK)
+[Enhao Huang](LINK)\*, [Tongtong Pan](LINK)\*, [Shuhuai Zhang](LINK)\*, [Qishu Jin](LINK), [Liheng Zhen](LINK), [Kaichun Hu](LINK), [Yiming Li](LINK) $^\dagger$, [Zhan Qin](LINK), [Kui Ren](LINK)
 
-($^\dagger$ Corresponding Author)
+(* Equal Contribution, $^\dagger$ Corresponding Author)
+
 
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](你的Arxiv链接) 
 [![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](你的视频链接)
@@ -26,8 +27,8 @@
 
 | Milestone | ETA | Status |
 | :--- | :--- | :--- |
-| **1. Core Implementation** <br> (Backend, Agent Logic, & Dataset) | ~ 2026.02.20 | 🚧 *In Progress* |
-| **2. Demo Video** <br> (System walkthrough & Visualizations) | ~ 2026.03.10 | ⏳ *Pending* |
+| **1. Core Implementation** <br> (Backend, Agent Logic, & Dataset) | ~ 2026.02.20 | ✅ *Completed* |
+| **2. Demo Video** <br> (System walkthrough & Visualizations) | ~ 2026.03.10 | 🚧 *In Progress* |
 | **3. Full System Release** <br> (Industrial-ready Frontend & Deployment) | ~ 2026.03.20 | ⏳ *Pending* |
 
 ---
@@ -47,7 +48,7 @@ This repository will host the official implementation of **DualMind**, including
 DualMind is an LLM-driven multi-agent simulation platform that models the interplay between rapidly fluctuating emotions and the slower evolution of cognitive states.
 
 <p align="center">
-  <img src="assets/interface_preview.png" alt="DualMind Interface" width="100%">
+  <img src="https://youke.xn--y7xa690gmna.cn/s1/2026/02/06/6985bf420f4ff.webp" alt="DualMind Interface" width="100%">
   <br>
   <em>Figure 1: The DualMind Interactive Interface (Strategy Rehearsal Sandbox).</em>
 </p>
