@@ -48,13 +48,13 @@ This repository will host the official implementation of **DualMind**, including
 DualMind is an LLM-driven multi-agent simulation platform that models the interplay between rapidly fluctuating emotions and the slower evolution of cognitive states.
 
 <p align="center">
-  <img src="https://youke.xn--y7xa690gmna.cn/s1/2026/02/06/6985bf420f4ff.webp" alt="DualMind Interface" width="100%">
+  <img src="https://picui.ogmua.cn/s1/2026/03/06/69aa53553b1be.webp" alt="DualMind Interface" width="100%">
   <br>
   <em>Figure 1: The DualMind Interactive Interface (Strategy Rehearsal Sandbox).</em>
 </p>
 
 ## 📝 Abstract
-The diffusion of public opinion during PR crises is highly volatile and remains difficult to forecast. Existing simulation frameworks typically overlook the complex interaction between transient affective responses and persistent cognitive beliefs. To address this limitation, we present **DualMind**, a new LLM-driven multi-agent simulation platform... [Content from your abstract]
+The diffusion of public opinion during PR crises is highly volatile and remains difficult to forecast. Existing simulation frameworks typically overlook the complex interaction between transient affective responses and persistent cognitive beliefs. To address this limitation, we present **DualMind**, a new LLM-driven multi-agent simulation platform. DualMind introduces a dual-component architecture that explicitly models the interplay between rapidly fluctuating emotions and the slower evolution of cognitive states across heterogeneous agent personas. We evaluate the system on 15 real-world crises that occurred after the LLMs' knowledge cutoff (August 2024) to eliminate data contamination. Empirical results show that DualMind faithfully reconstructs real-world opinion trajectories and eventual outcomes, substantially outperforming state-of-the-art baselines. This work provides a scalable, high-fidelity tool for proactive crisis management and potentially advances the methodological foundation for computational social science.
 
 ## 🎥 Demo Video
 *(Coming Soon)*
