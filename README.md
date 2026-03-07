@@ -14,7 +14,7 @@
 
 
 [![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](你的Arxiv链接) 
-[![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](你的视频链接)
+[![Video](https://img.shields.io/badge/Video-YouTube-red.svg)](https://youtu.be/ko0TTCcWn-I)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 </div>
@@ -57,7 +57,7 @@ DualMind is an LLM-driven multi-agent simulation platform that models the interp
 The diffusion of public opinion during PR crises is highly volatile and remains difficult to forecast. Existing simulation frameworks typically overlook the complex interaction between transient affective responses and persistent cognitive beliefs. To address this limitation, we present **DualMind**, a new LLM-driven multi-agent simulation platform. DualMind introduces a dual-component architecture that explicitly models the interplay between rapidly fluctuating emotions and the slower evolution of cognitive states across heterogeneous agent personas. We evaluate the system on 15 real-world crises that occurred after the LLMs' knowledge cutoff (August 2024) to eliminate data contamination. Empirical results show that DualMind faithfully reconstructs real-world opinion trajectories and eventual outcomes, substantially outperforming state-of-the-art baselines. This work provides a scalable, high-fidelity tool for proactive crisis management and potentially advances the methodological foundation for computational social science.
 
 ## 🎥 Demo Video
-*(Coming Soon)*
+Video is available at [Here](https://youtu.be/ko0TTCcWn-I)
 
 ## 🖊️ Citation
 If you find our work helpful, please cite:
