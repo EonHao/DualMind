@@ -241,11 +241,17 @@ def generate_scenario1_report(request: GenerateReportRequest):
         )
         return ApiResponse(success=True, data=report_data)
     except ValueError as e:
-        error_payload = {"code": "SIMULATION_NOT_FOUND", "message": str(e)}
-        return JSONResponse(
-            status_code=404,
-            content={"success": False, "error": error_payload}
-        )
+        msg = str(e)
+        if "does not exist" in msg or "only for Scenario 1" in msg:
+            error_payload = {"code": "SIMULATION_NOT_FOUND", "message": msg}
+            return JSONResponse(
+                status_code=404,
+                content={"success": False, "error": error_payload}
+            )
+        import traceback
+        print(f"Error generating report (ValueError): {msg}")
+        print(traceback.format_exc())
+        raise HTTPException(status_code=500, detail=msg)
     except Exception as e:
         import traceback
         print(f"Error generating report: {str(e)}")

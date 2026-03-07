@@ -21,9 +21,21 @@ const Scenario1ReportPage: React.FC<Scenario1ReportPageProps> = ({
   onClose,
   onReset,
 }) => {
-  const { evaluation } = reportData;
-  const overallScore = evaluation.overall_ideal_achievement_percentage || 0;
-  const rating = evaluation.rating || 'Pending Assessment';
+  const evaluation = reportData?.evaluation;
+  const overallScore = Number(evaluation?.overall_ideal_achievement_percentage) || 0;
+  const rating = evaluation?.rating || 'Pending Assessment';
+
+  if (!reportData || !evaluation) {
+    return (
+      <div className="scenario1-report-page">
+        <div className="page-header">
+          <Title level={2}>Report data is missing</Title>
+          <Text>Unable to display the report. Please try generating again.</Text>
+        </div>
+        <Button onClick={onBack}>Back to Simulation</Button>
+      </div>
+    );
+  }
 
   // Get color based on rating
   const getRatingColor = (rating: string): string => {
@@ -100,8 +112,8 @@ const Scenario1ReportPage: React.FC<Scenario1ReportPageProps> = ({
                   <div className="breakdown-mini-grid">
                     {Object.entries(evaluation.dimension_scores || {}).map(([dimensionName, dimensionData]) => {
                       const details = dimensionData.details;
-                      const score = details?.ideal_achievement_percentage || details?.percentage || 0;
-                      const weight = dimensionData.weight || 0;
+                      const score = Number(details?.ideal_achievement_percentage ?? details?.percentage ?? 0) || 0;
+                      const weight = Number(dimensionData.weight) || 0;
                       const contribution = (score * weight).toFixed(1);
                       
                       return (
@@ -135,8 +147,8 @@ const Scenario1ReportPage: React.FC<Scenario1ReportPageProps> = ({
           <div className="dimensions-grid">
             {Object.entries(evaluation.dimension_scores || {}).map(([dimensionName, dimensionData]) => {
               const details = dimensionData.details;
-              const score = details?.ideal_achievement_percentage || details?.percentage || 0;
-              const weight = dimensionData.weight || 0;
+              const score = Number(details?.ideal_achievement_percentage ?? details?.percentage ?? 0) || 0;
+              const weight = Number(dimensionData.weight) || 0;
 
               return (
                 <Card key={dimensionName} className="dimension-card">
@@ -162,7 +174,7 @@ const Scenario1ReportPage: React.FC<Scenario1ReportPageProps> = ({
                           strokeColor={getScoreColor(score)}
                           format={() => (
                             <div className="dimension-score-text">
-                              <div className="dimension-score-value">{score.toFixed(1)}</div>
+                              <div className="dimension-score-value">{Number.isFinite(score) ? score.toFixed(1) : '—'}</div>
                               <div className="dimension-score-unit">pts</div>
                             </div>
                           )}
@@ -228,7 +240,7 @@ const Scenario1ReportPage: React.FC<Scenario1ReportPageProps> = ({
             <ReactMarkdown 
               remarkPlugins={[remarkGfm]}
             >
-              {reportData.content}
+              {reportData.content ?? ''}
             </ReactMarkdown>
           </div>
         </Card>

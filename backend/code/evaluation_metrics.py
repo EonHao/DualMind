@@ -1588,10 +1588,13 @@ def comprehensive_evaluation(sim_data: Dict, real_case_data: Dict = None) -> Dic
         for dim_name, dim_data in results.items():
             details = dim_data["details"]
             if details.get("category") == "comparative" and "similarity" in details:
-                # Compatible with old and new field names
-                score = details["similarity"].get("similarity_percentage", 
-                                                 details["similarity"].get("similarity_score", 50))
-                similarity_scores.append(score)
+                # Compatible with old and new field names; LLM may return string
+                raw = details["similarity"].get("similarity_percentage",
+                                                details["similarity"].get("similarity_score", 50))
+                try:
+                    similarity_scores.append(float(raw))
+                except (TypeError, ValueError):
+                    similarity_scores.append(50.0)
         
         overall_similarity = sum(similarity_scores) / len(similarity_scores) if similarity_scores else 50
         
@@ -1621,9 +1624,13 @@ Evaluation Note:
             details = dim_data["details"]
             if details.get("category") == "simulation_only":
                 desc = details.get('description', details.get('summary', ''))
-                score = details.get('ideal_achievement_percentage', 0)
-                ideal_achievement_scores.append(score)
-                summary += f"{dim_name}: {desc} (Achievement Score: {score:.1f})\n"
+                raw_score = details.get('ideal_achievement_percentage', 0)
+                try:
+                    score_val = float(raw_score)
+                except (TypeError, ValueError):
+                    score_val = 0.0
+                ideal_achievement_scores.append(score_val)
+                summary += f"{dim_name}: {desc} (Achievement Score: {score_val:.1f})\n"
         
         # Calculate overall achievement
         overall_achievement = sum(ideal_achievement_scores) / len(ideal_achievement_scores) if ideal_achievement_scores else 0
